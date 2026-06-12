@@ -1,8 +1,8 @@
 # pricing — four arguments, four distinct kāraka roles. The call carries no
 # commas, no parens, no `name=` labels: each role is a 1–2 char suffix, and
 # order is free. This is where kāraka beats keyword arguments outright.
-#   adhara (base) -m   kara (tax) -ena   chut (discount) -aya   sankhya (qty) -e
-karya mulya(adharam, karaena, chutaya, sankhyae):
-    phala (adhara + adhara * kara - chut) * sankhya
+#   base -m   tax -ena   disc -aya   qty -e
+karya price(basem, taxena, discaya, qtye):
+    phala (base + base * tax - disc) * qty
 
-[100m 0.1ena 5aya 3e mulya]m vada
+[100m 0.1ena 5aya 3e price]m vada

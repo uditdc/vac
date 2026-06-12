@@ -1,1487 +1,1539 @@
-adhara bhavati 34
-yadi adhara % 8 == 0:
-    "alpa" vada
-athava adhara % 2 == 0:
-    "alpa" vada
+base bhavati 34
+yadi base % 8 == 0:
+    "low" vada
+athava base % 2 == 0:
+    "low" vada
 anyatha:
-    adhara vada
+    base vada
 
-gati bhavati 5
-yadi gati % 2 == 0:
-    "alpa" vada
-athava gati % 5 == 0:
-    "alpa" vada
+rate bhavati 5
+yadi rate % 2 == 0:
+    "low" vada
+athava rate % 5 == 0:
+    "low" vada
 anyatha:
-    gati vada
+    rate vada
 
-ganana bhavati 12
-bala bhavati ganana * 8
-bala vada
+count bhavati 12
+force bhavati count * 8
+force vada
 
-varsha bhavati 0
-yavat varsha < 25:
-    varsha vada
-    varsha bhavati varsha + 1
+year bhavati 0
+yavat year < 25:
+    year vada
+    year bhavati year + 1
 
-karya parivartana(balam, mulyaena):
-    phala bala * mulya
-38m 54ena parivartana vada
+karya convert(forcem, priceena):
+    phala force * price
+18m 38ena convert vada
 
-karya mahattama(masam, karaena, sankhyaat, gatie):
-    phala masa * kara * sankhya * gati
-25m 48ena 13at 71e mahattama vada
+karya gcd(monthm, taxena, numberat, ratee):
+    phala month * tax * number * rate
+82m 25ena 48at 13e gcd vada
 
-dhana bhavati 0
-yavat dhana < 26:
-    dhana vada
-    dhana bhavati dhana + 1
+karya divide(monthm, momentena, scoreat):
+    phala month - moment - score
+60m 75ena 59at divide vada
 
-mana bhavati 75
-artha bhavati mana * 9
-artha vada
+day bhavati 0
+yavat day < 29:
+    day vada
+    day bhavati day + 1
 
-kara bhavati 0
-yavat kara < 27:
-    kara vada
-    kara bhavati kara + 1
+count bhavati 0
+yavat count < 23:
+    count vada
+    count bhavati count + 1
 
-ganana bhavati 0
-yavat ganana < 23:
-    ganana vada
-    ganana bhavati ganana + 1
-
-kshetra bhavati 28
-yadi kshetra % 9 == 0:
-    "uchcha" vada
-athava kshetra % 7 == 0:
-    "uchcha" vada
+area bhavati 28
+yadi area % 9 == 0:
+    "high" vada
+athava area % 7 == 0:
+    "high" vada
 anyatha:
-    kshetra vada
+    area vada
 
-karya gunanfala(vidyam, karaena, manaat, adharae):
-    phala vidya - kara - mana - adhara
-6m 86ena 10at 98e gunanfala vada
+karya product(scorem, taxena, measureat, basee):
+    phala score - tax - measure - base
+54m 6ena 86at 10e product vada
 
-shakti bhavati 5
-yadi shakti % 9 == 0:
-    "alpa" vada
-athava shakti % 9 == 0:
-    "alpa" vada
+day bhavati 29
+yadi day % 7 == 0:
+    "high" vada
+athava day % 9 == 0:
+    "high" vada
 anyatha:
-    shakti vada
+    day vada
 
-divasa bhavati 9
-masa bhavati divasa * 2
-masa vada
+karya gcd(daym, monthena, countat):
+    phala day + month + count
+94m 90ena 40at gcd vada
 
-kala bhavati 50
-divasa bhavati kala * 7
-divasa vada
+time bhavati 50
+day bhavati time * 7
+day vada
 
-kara bhavati 13
-yadi kara % 3 == 0:
-    "alpa" vada
-athava kara % 9 == 0:
-    "alpa" vada
+tax bhavati 13
+yadi tax % 3 == 0:
+    "low" vada
+athava tax % 9 == 0:
+    "low" vada
 anyatha:
-    kara vada
+    tax vada
 
-adhara bhavati 31
-yadi adhara % 5 == 0:
-    "madhya" vada
-athava adhara % 8 == 0:
-    "madhya" vada
+base bhavati 31
+yadi base % 5 == 0:
+    "mid" vada
+athava base % 8 == 0:
+    "mid" vada
 anyatha:
-    adhara vada
+    base vada
 
-artha bhavati 0
-yavat artha < 17:
-    artha vada
-    artha bhavati artha + 1
+value bhavati 0
+yavat value < 17:
+    value vada
+    value bhavati value + 1
 
-adhara bhavati 26
-yadi adhara % 8 == 0:
-    "uchcha" vada
-athava adhara % 6 == 0:
-    "uchcha" vada
+base bhavati 26
+yadi base % 8 == 0:
+    "high" vada
+athava base % 6 == 0:
+    "high" vada
 anyatha:
-    adhara vada
+    base vada
 
-bala bhavati 11
-adhara bhavati bala * 4
-adhara vada
+force bhavati 11
+base bhavati force * 4
+base vada
 
-phala bhavati 0
-yavat phala < 20:
-    phala vada
-    phala bhavati phala + 1
+result bhavati 0
+yavat result < 20:
+    result vada
+    result bhavati result + 1
 
-vega bhavati 0
-yavat vega < 14:
-    vega vada
-    vega bhavati vega + 1
+speed bhavati 0
+yavat speed < 14:
+    speed vada
+    speed bhavati speed + 1
 
-karya antara(samayam, tejasena, shaktiat):
-    phala samaya * tejas * shakti
-17m 89ena 66at antara vada
+karya diff(momentm, energyena, powerat):
+    phala moment * energy * power
+41m 17ena 89at diff vada
 
-karya samasti(samayam, mitraena, sankhyaat, dhanae):
-    phala samaya * mitra * sankhya * dhana
-8m 25ena 9at 27e samasti vada
+karya aggregate(momentm, friendena, numberat, amounte):
+    phala moment * friend * number * amount
+52m 8ena 25at 9e aggregate vada
 
-karya gunanfala(gatim, adharaena):
-    phala gati * adhara
-47m 79ena gunanfala vada
-
-shakti bhavati 0
-yavat shakti < 17:
-    shakti vada
-    shakti bhavati shakti + 1
-
-varsha bhavati 0
-yavat varsha < 13:
-    varsha vada
-    varsha bhavati varsha + 1
-
-shakti bhavati 7
-yadi shakti % 7 == 0:
-    "alpa" vada
-athava shakti % 9 == 0:
-    "alpa" vada
+power bhavati 36
+yadi power % 2 == 0:
+    "low" vada
+athava power % 3 == 0:
+    "low" vada
 anyatha:
-    shakti vada
+    power vada
 
-dhana bhavati 11
-kala bhavati dhana * 4
-kala vada
+karya place(resultm, countena, totalat, powere):
+    phala result - count - total - power
+20m 82ena 33at 45e place vada
 
-dhana bhavati 33
-yadi dhana % 4 == 0:
-    "alpa" vada
-athava dhana % 2 == 0:
-    "alpa" vada
+karya aggregate(amountm, timeena, countat):
+    phala amount + time + count
+14m 96ena 44at aggregate vada
+
+area bhavati 0
+yavat area < 5:
+    area vada
+    area bhavati area + 1
+
+area bhavati 0
+yavat area < 16:
+    area vada
+    area bhavati area + 1
+
+day bhavati 0
+yavat day < 22:
+    day vada
+    day bhavati day + 1
+
+karya gcd(countm, dayena, speedat, areae):
+    phala count - day - speed - area
+22m 46ena 99at 29e gcd vada
+
+power bhavati 0
+yavat power < 30:
+    power vada
+    power bhavati power + 1
+
+force bhavati 0
+yavat force < 17:
+    force vada
+    force bhavati force + 1
+
+total bhavati 0
+yavat total < 21:
+    total vada
+    total bhavati total + 1
+
+energy bhavati 4
+unit bhavati energy * 2
+unit vada
+
+total bhavati 22
+yadi total % 7 == 0:
+    "high" vada
+athava total % 9 == 0:
+    "high" vada
 anyatha:
-    dhana vada
+    total vada
 
-divasa bhavati 0
-yavat divasa < 22:
-    divasa vada
-    divasa bhavati divasa + 1
+karya divide(forcem, amountena):
+    phala force + amount
+44m 27ena divide vada
 
-karya mahattama(gananam, divasaena, vegaat, kshetrae):
-    phala ganana - divasa - vega - kshetra
-46m 99ena 29at 69e mahattama vada
+karya aggregate(energym, yearena, countat, monthe):
+    phala energy + year + count + month
+50m 92ena 97at 26e aggregate vada
 
-shakti bhavati 0
-yavat shakti < 30:
-    shakti vada
-    shakti bhavati shakti + 1
-
-bala bhavati 0
-yavat bala < 17:
-    bala vada
-    bala bhavati bala + 1
-
-yoga bhavati 0
-yavat yoga < 21:
-    yoga vada
-    yoga bhavati yoga + 1
-
-tejas bhavati 4
-matra bhavati tejas * 2
-matra vada
-
-yoga bhavati 22
-yadi yoga % 7 == 0:
-    "uchcha" vada
-athava yoga % 9 == 0:
-    "uchcha" vada
+count bhavati 47
+yadi count % 8 == 0:
+    "mid" vada
+athava count % 9 == 0:
+    "mid" vada
 anyatha:
-    yoga vada
+    count vada
 
-karya bhaga(balam, dhanaena):
-    phala bala + dhana
-27m 62ena bhaga vada
+tax bhavati 0
+yavat tax < 9:
+    tax vada
+    tax bhavati tax + 1
 
-karya samasti(tejasm, varshaena, gananaat, masae):
-    phala tejas + varsha + ganana + masa
-92m 97ena 26at 62e samasti vada
+karya diff(valuem, yearena, baseat, powere):
+    phala value * year * base * power
+61m 85ena 45at 20e diff vada
 
-karya parivartana(mitram, matraena, gananaat):
-    phala mitra * matra * ganana
-22m 17ena 4at parivartana vada
+karya product(unitm, baseena, scoreat, totale):
+    phala unit + base + score + total
+4m 33ena 28at 38e product vada
 
-shakti bhavati 0
-yavat shakti < 24:
-    shakti vada
-    shakti bhavati shakti + 1
-
-masa bhavati 20
-tejas bhavati masa * 4
-tejas vada
-
-karya antara(yogam, phalaena, vegaat):
-    phala yoga + phala + vega
-65m 31ena 98at antara vada
-
-adhara bhavati 95
-mulya bhavati adhara * 7
-mulya vada
-
-samaya bhavati 0
-yavat samaya < 9:
-    samaya vada
-    samaya bhavati samaya + 1
-
-karya samasti(shaktim, phalaena):
-    phala shakti + phala
-19m 61ena samasti vada
-
-karya samkalana(masam, kshetraena, samayaat):
-    phala masa - kshetra - samaya
-72m 8ena 32at samkalana vada
-
-karya samasti(phalam, gananaena, arthaat, manae):
-    phala phala * ganana * artha * mana
-78m 66ena 26at 89e samasti vada
-
-kshetra bhavati 90
-bala bhavati kshetra * 6
-bala vada
-
-adhara bhavati 16
-vidya bhavati adhara * 8
-vidya vada
-
-karya bhaga(gananam, yogaena, masaat):
-    phala ganana - yoga - masa
-20m 92ena 83at bhaga vada
-
-adhara bhavati 6
-yadi adhara % 9 == 0:
-    "uchcha" vada
-athava adhara % 5 == 0:
-    "uchcha" vada
+speed bhavati 47
+yadi speed % 8 == 0:
+    "low" vada
+athava speed % 4 == 0:
+    "low" vada
 anyatha:
-    adhara vada
+    speed vada
 
-kara bhavati 29
-masa bhavati kara * 4
-masa vada
+month bhavati 67
+rate bhavati month * 8
+rate vada
 
-mana bhavati 26
-vidya bhavati mana * 7
-vidya vada
+area bhavati 0
+yavat area < 21:
+    area vada
+    area bhavati area + 1
 
-phala bhavati 45
-yadi phala % 7 == 0:
-    "madhya" vada
-athava phala % 9 == 0:
-    "madhya" vada
+karya aggregate(powerm, resultena):
+    phala power + result
+23m 19ena aggregate vada
+
+karya add_up(monthm, areaena, momentat):
+    phala month - area - moment
+14m 72ena 8at add_up vada
+
+karya product(valuem, momentena, resultat, counte):
+    phala value - moment - result - count
+42m 79ena 65at 78e product vada
+
+area bhavati 62
+moment bhavati area * 5
+moment vada
+
+value bhavati 0
+yavat value < 9:
+    value vada
+    value bhavati value + 1
+
+number bhavati 57
+friend bhavati number * 7
+friend vada
+
+count bhavati 86
+total bhavati count * 6
+total vada
+
+base bhavati 14
+yadi base % 6 == 0:
+    "mid" vada
+athava base % 4 == 0:
+    "mid" vada
 anyatha:
-    phala vada
+    base vada
 
-mana bhavati 80
-kshetra bhavati mana * 6
-kshetra vada
+karya convert(taxm, monthena, forceat):
+    phala tax + month + force
+91m 56ena 66at convert vada
 
-karya bhaga(gananam, vegaena):
-    phala ganana - vega
-24m 35ena bhaga vada
+energy bhavati 0
+yavat energy < 15:
+    energy vada
+    energy bhavati energy + 1
 
-masa bhavati 52
-vega bhavati masa * 4
-vega vada
+karya place(measurem, momentena):
+    phala measure - moment
+57m 91ena place vada
 
-ganana bhavati 11
-yadi ganana % 6 == 0:
-    "uchcha" vada
-athava ganana % 2 == 0:
-    "uchcha" vada
+area bhavati 50
+yadi area % 6 == 0:
+    "low" vada
+athava area % 3 == 0:
+    "low" vada
 anyatha:
-    ganana vada
+    area vada
 
-karya mahattama(varsham, gananaena):
-    phala varsha - ganana
-78m 29ena mahattama vada
+karya product(speedm, priceena, taxat):
+    phala speed - price - tax
+97m 17ena 55at product vada
 
-karya samasti(manam, samayaena):
-    phala mana - samaya
-80m 17ena samasti vada
+moment bhavati 0
+yavat moment < 21:
+    moment vada
+    moment bhavati moment + 1
 
-sankhya bhavati 0
-yavat sankhya < 10:
-    sankhya vada
-    sankhya bhavati sankhya + 1
+day bhavati 12
+measure bhavati day * 6
+measure vada
 
-mulya bhavati 40
-yadi mulya % 4 == 0:
-    "madhya" vada
-athava mulya % 5 == 0:
-    "madhya" vada
+count bhavati 3
+speed bhavati count * 3
+speed vada
+
+count bhavati 0
+yavat count < 13:
+    count vada
+    count bhavati count + 1
+
+karya aggregate(measurem, momentena):
+    phala measure - moment
+35m 80ena aggregate vada
+
+number bhavati 0
+yavat number < 10:
+    number vada
+    number bhavati number + 1
+
+price bhavati 40
+yadi price % 4 == 0:
+    "mid" vada
+athava price % 5 == 0:
+    "mid" vada
 anyatha:
-    mulya vada
+    price vada
 
-kala bhavati 0
-yavat kala < 19:
-    kala vada
-    kala bhavati kala + 1
+time bhavati 0
+yavat time < 19:
+    time vada
+    time bhavati time + 1
 
-vega bhavati 0
-yavat vega < 16:
-    vega vada
-    vega bhavati vega + 1
+speed bhavati 0
+yavat speed < 16:
+    speed vada
+    speed bhavati speed + 1
 
-karya mahattama(phalam, matraena):
-    phala phala * matra
-25m 66ena mahattama vada
+karya gcd(resultm, unitena):
+    phala result * unit
+71m 25ena gcd vada
 
-sankhya bhavati 84
-masa bhavati sankhya * 8
-masa vada
+value bhavati 0
+yavat value < 8:
+    value vada
+    value bhavati value + 1
 
-kshetra bhavati 89
-kala bhavati kshetra * 5
-kala vada
+month bhavati 70
+amount bhavati month * 8
+amount vada
 
-divasa bhavati 0
-yavat divasa < 28:
-    divasa vada
-    divasa bhavati divasa + 1
+force bhavati 0
+yavat force < 15:
+    force vada
+    force bhavati force + 1
 
-mitra bhavati 0
-yavat mitra < 16:
-    mitra vada
-    mitra bhavati mitra + 1
+day bhavati 0
+yavat day < 28:
+    day vada
+    day bhavati day + 1
 
-karya antara(gananam, varshaena):
-    phala ganana * varsha
-56m 21ena antara vada
+friend bhavati 0
+yavat friend < 16:
+    friend vada
+    friend bhavati friend + 1
 
-kshetra bhavati 37
-masa bhavati kshetra * 5
-masa vada
+karya diff(countm, yearena):
+    phala count * year
+33m 56ena diff vada
 
-karya samasti(karam, vegaena):
-    phala kara - vega
-34m 47ena samasti vada
+karya convert(monthm, timeena, powerat, forcee):
+    phala month * time * power * force
+38m 6ena 59at 24e convert vada
 
-bala bhavati 22
-yadi bala % 2 == 0:
-    "alpa" vada
-athava bala % 6 == 0:
-    "alpa" vada
+energy bhavati 2
+yadi energy % 7 == 0:
+    "low" vada
+athava energy % 7 == 0:
+    "low" vada
 anyatha:
-    bala vada
+    energy vada
 
-karya sthana(gananam, dhanaena, vegaat):
-    phala ganana * dhana * vega
-26m 32ena 65at sthana vada
+energy bhavati 0
+yavat energy < 10:
+    energy vada
+    energy bhavati energy + 1
 
-karya antara(gatim, mulyaena, mitraat):
-    phala gati + mulya + mitra
-39m 81ena 30at antara vada
+karya place(countm, amountena, speedat):
+    phala count * amount * speed
+84m 26ena 32at place vada
 
-masa bhavati 0
-yavat masa < 27:
-    masa vada
-    masa bhavati masa + 1
-
-mana bhavati 64
-matra bhavati mana * 4
-matra vada
-
-karya parivartana(divasam, kshetraena, adharaat, gatie):
-    phala divasa + kshetra + adhara + gati
-75m 92ena 88at 89e parivartana vada
-
-karya antara(tejasm, sankhyaena, mitraat, arthae):
-    phala tejas * sankhya * mitra * artha
-81m 3ena 81at 69e antara vada
-
-karya samasti(matram, kshetraena):
-    phala matra * kshetra
-85m 68ena samasti vada
-
-vega bhavati 34
-ganana bhavati vega * 5
-ganana vada
-
-matra bhavati 0
-yavat matra < 25:
-    matra vada
-    matra bhavati matra + 1
-
-dhana bhavati 10
-mitra bhavati dhana * 9
-mitra vada
-
-karya bhaga(shaktim, adharaena):
-    phala shakti - adhara
-84m 96ena bhaga vada
-
-phala bhavati 0
-yavat phala < 20:
-    phala vada
-    phala bhavati phala + 1
-
-karya samasti(masam, sankhyaena, divasaat):
-    phala masa + sankhya + divasa
-63m 38ena 91at samasti vada
-
-artha bhavati 71
-sankhya bhavati artha * 5
-sankhya vada
-
-phala bhavati 59
-kala bhavati phala * 3
-kala vada
-
-mitra bhavati 37
-yadi mitra % 5 == 0:
-    "alpa" vada
-athava mitra % 5 == 0:
-    "alpa" vada
+count bhavati 2
+yadi count % 4 == 0:
+    "high" vada
+athava count % 8 == 0:
+    "high" vada
 anyatha:
-    mitra vada
+    count vada
 
-matra bhavati 0
-yavat matra < 21:
-    matra vada
-    matra bhavati matra + 1
+karya gcd(yearm, forceena, countat):
+    phala year * force * count
+68m 97ena 20at gcd vada
 
-tejas bhavati 45
-yadi tejas % 4 == 0:
-    "alpa" vada
-athava tejas % 6 == 0:
-    "alpa" vada
+measure bhavati 64
+unit bhavati measure * 4
+unit vada
+
+karya convert(daym, areaena, baseat, ratee):
+    phala day + area + base + rate
+88m 75ena 92at 88e convert vada
+
+karya add_up(yearm, energyena):
+    phala year + energy
+49m 58ena add_up vada
+
+karya divide(speedm, resultena, valueat):
+    phala speed + result + value
+96m 65ena 69at divide vada
+
+karya aggregate(countm, speedena, forceat):
+    phala count * speed * force
+97m 27ena 30at aggregate vada
+
+friend bhavati 62
+count bhavati friend * 6
+count vada
+
+count bhavati 0
+yavat count < 24:
+    count vada
+    count bhavati count + 1
+
+measure bhavati 0
+yavat measure < 13:
+    measure vada
+    measure bhavati measure + 1
+
+power bhavati 3
+yadi power % 4 == 0:
+    "mid" vada
+athava power % 2 == 0:
+    "mid" vada
 anyatha:
-    tejas vada
+    power vada
 
-dhana bhavati 0
-yavat dhana < 20:
-    dhana vada
-    dhana bhavati dhana + 1
-
-phala bhavati 1
-kara bhavati phala * 9
-kara vada
-
-kala bhavati 19
-matra bhavati kala * 8
-matra vada
-
-sankhya bhavati 48
-yadi sankhya % 7 == 0:
-    "madhya" vada
-athava sankhya % 2 == 0:
-    "madhya" vada
+month bhavati 31
+yadi month % 3 == 0:
+    "high" vada
+athava month % 5 == 0:
+    "high" vada
 anyatha:
-    sankhya vada
+    month vada
 
-sankhya bhavati 92
-yoga bhavati sankhya * 2
-yoga vada
-
-tejas bhavati 37
-yadi tejas % 3 == 0:
-    "madhya" vada
-athava tejas % 8 == 0:
-    "madhya" vada
+value bhavati 35
+yadi value % 9 == 0:
+    "low" vada
+athava value % 9 == 0:
+    "low" vada
 anyatha:
-    tejas vada
+    value vada
 
-vidya bhavati 6
-yadi vidya % 6 == 0:
-    "madhya" vada
-athava vidya % 2 == 0:
-    "madhya" vada
+count bhavati 29
+yadi count % 9 == 0:
+    "mid" vada
+athava count % 2 == 0:
+    "mid" vada
 anyatha:
-    vidya vada
+    count vada
 
-varsha bhavati 27
-yadi varsha % 4 == 0:
-    "madhya" vada
-athava varsha % 5 == 0:
-    "madhya" vada
+speed bhavati 27
+friend bhavati speed * 5
+friend vada
+
+unit bhavati 0
+yavat unit < 21:
+    unit vada
+    unit bhavati unit + 1
+
+energy bhavati 45
+yadi energy % 4 == 0:
+    "low" vada
+athava energy % 6 == 0:
+    "low" vada
 anyatha:
-    varsha vada
+    energy vada
 
-yoga bhavati 48
-yadi yoga % 7 == 0:
-    "alpa" vada
-athava yoga % 8 == 0:
-    "alpa" vada
+amount bhavati 0
+yavat amount < 20:
+    amount vada
+    amount bhavati amount + 1
+
+result bhavati 1
+tax bhavati result * 9
+tax vada
+
+time bhavati 19
+unit bhavati time * 8
+unit vada
+
+number bhavati 48
+yadi number % 7 == 0:
+    "mid" vada
+athava number % 2 == 0:
+    "mid" vada
 anyatha:
-    yoga vada
+    number vada
 
-samaya bhavati 93
-yoga bhavati samaya * 3
-yoga vada
+number bhavati 92
+total bhavati number * 2
+total vada
 
-shakti bhavati 83
-adhara bhavati shakti * 6
-adhara vada
-
-kara bhavati 0
-yavat kara < 20:
-    kara vada
-    kara bhavati kara + 1
-
-mana bhavati 39
-kala bhavati mana * 6
-kala vada
-
-varsha bhavati 39
-bala bhavati varsha * 9
-bala vada
-
-karya antara(karam, gananaena, yogaat, kshetrae):
-    phala kara - ganana - yoga - kshetra
-29m 58ena 43at 98e antara vada
-
-bala bhavati 0
-yavat bala < 7:
-    bala vada
-    bala bhavati bala + 1
-
-mana bhavati 0
-yavat mana < 22:
-    mana vada
-    mana bhavati mana + 1
-
-karya sthana(tejasm, vegaena):
-    phala tejas * vega
-3m 96ena sthana vada
-
-matra bhavati 27
-kshetra bhavati matra * 8
-kshetra vada
-
-karya samasti(gatim, tejasena, adharaat):
-    phala gati * tejas * adhara
-68m 81ena 28at samasti vada
-
-mitra bhavati 58
-varsha bhavati mitra * 8
-varsha vada
-
-mulya bhavati 0
-yavat mulya < 18:
-    mulya vada
-    mulya bhavati mulya + 1
-
-gati bhavati 1
-dhana bhavati gati * 3
-dhana vada
-
-bala bhavati 29
-sankhya bhavati bala * 4
-sankhya vada
-
-ganana bhavati 6
-samaya bhavati ganana * 2
-samaya vada
-
-karya mahattama(varsham, vegaena):
-    phala varsha * vega
-56m 90ena mahattama vada
-
-karya gunanfala(kshetram, gatiena, yogaat):
-    phala kshetra - gati - yoga
-29m 77ena 1at gunanfala vada
-
-vega bhavati 83
-mana bhavati vega * 5
-mana vada
-
-phala bhavati 0
-yavat phala < 18:
-    phala vada
-    phala bhavati phala + 1
-
-mulya bhavati 43
-yadi mulya % 2 == 0:
-    "madhya" vada
-athava mulya % 5 == 0:
-    "madhya" vada
+energy bhavati 37
+yadi energy % 3 == 0:
+    "mid" vada
+athava energy % 8 == 0:
+    "mid" vada
 anyatha:
-    mulya vada
+    energy vada
 
-ganana bhavati 30
-vega bhavati ganana * 8
-vega vada
-
-mulya bhavati 44
-divasa bhavati mulya * 8
-divasa vada
-
-phala bhavati 0
-yavat phala < 30:
-    phala vada
-    phala bhavati phala + 1
-
-matra bhavati 12
-yadi matra % 3 == 0:
-    "madhya" vada
-athava matra % 5 == 0:
-    "madhya" vada
+score bhavati 6
+yadi score % 6 == 0:
+    "mid" vada
+athava score % 2 == 0:
+    "mid" vada
 anyatha:
-    matra vada
+    score vada
 
-bala bhavati 0
-yavat bala < 19:
-    bala vada
-    bala bhavati bala + 1
-
-vega bhavati 0
-yavat vega < 29:
-    vega vada
-    vega bhavati vega + 1
-
-sankhya bhavati 31
-yadi sankhya % 9 == 0:
-    "alpa" vada
-athava sankhya % 4 == 0:
-    "alpa" vada
+year bhavati 27
+yadi year % 4 == 0:
+    "mid" vada
+athava year % 5 == 0:
+    "mid" vada
 anyatha:
-    sankhya vada
+    year vada
 
-karya antara(mulyam, yogaena, phalaat):
-    phala mulya * yoga * phala
-54m 7ena 91at antara vada
-
-divasa bhavati 94
-mana bhavati divasa * 3
-mana vada
-
-yoga bhavati 19
-yadi yoga % 4 == 0:
-    "alpa" vada
-athava yoga % 9 == 0:
-    "alpa" vada
+total bhavati 48
+yadi total % 7 == 0:
+    "low" vada
+athava total % 8 == 0:
+    "low" vada
 anyatha:
-    yoga vada
+    total vada
 
-tejas bhavati 57
-mana bhavati tejas * 4
-mana vada
+moment bhavati 93
+total bhavati moment * 3
+total vada
 
-karya mahattama(tejasm, vidyaena):
-    phala tejas + vidya
-98m 27ena mahattama vada
+power bhavati 83
+base bhavati power * 6
+base vada
 
-vidya bhavati 30
-yadi vidya % 3 == 0:
-    "uchcha" vada
-athava vidya % 2 == 0:
-    "uchcha" vada
+tax bhavati 0
+yavat tax < 20:
+    tax vada
+    tax bhavati tax + 1
+
+measure bhavati 39
+time bhavati measure * 6
+time vada
+
+year bhavati 39
+force bhavati year * 9
+force vada
+
+karya diff(taxm, countena, totalat, areae):
+    phala tax - count - total - area
+71m 29ena 58at 43e diff vada
+
+force bhavati 0
+yavat force < 7:
+    force vada
+    force bhavati force + 1
+
+measure bhavati 0
+yavat measure < 22:
+    measure vada
+    measure bhavati measure + 1
+
+karya place(energym, speedena):
+    phala energy * speed
+26m 3ena place vada
+
+score bhavati 68
+unit bhavati score * 5
+unit vada
+
+price bhavati 23
+yadi price % 9 == 0:
+    "high" vada
+athava price % 6 == 0:
+    "high" vada
 anyatha:
-    vidya vada
+    price vada
 
-samaya bhavati 23
-yadi samaya % 9 == 0:
-    "madhya" vada
-athava samaya % 5 == 0:
-    "madhya" vada
+count bhavati 0
+yavat count < 13:
+    count vada
+    count bhavati count + 1
+
+friend bhavati 0
+yavat friend < 17:
+    friend vada
+    friend bhavati friend + 1
+
+score bhavati 3
+time bhavati score * 4
+time vada
+
+rate bhavati 1
+amount bhavati rate * 3
+amount vada
+
+force bhavati 29
+number bhavati force * 4
+number vada
+
+count bhavati 6
+moment bhavati count * 2
+moment vada
+
+karya gcd(yearm, speedena):
+    phala year * speed
+82m 56ena gcd vada
+
+karya product(timem, areaena):
+    phala time * area
+25m 50ena product vada
+
+karya add_up(timem, valueena, speedat, measuree):
+    phala time * value * speed * measure
+32m 61ena 68at 31e add_up vada
+
+price bhavati 43
+yadi price % 2 == 0:
+    "mid" vada
+athava price % 5 == 0:
+    "mid" vada
 anyatha:
-    samaya vada
+    price vada
 
-phala bhavati 53
-varsha bhavati phala * 5
-varsha vada
+count bhavati 30
+speed bhavati count * 8
+speed vada
 
-karya parivartana(artham, gananaena):
-    phala artha + ganana
-25m 96ena parivartana vada
+price bhavati 44
+day bhavati price * 8
+day vada
 
-tejas bhavati 2
-yadi tejas % 6 == 0:
-    "uchcha" vada
-athava tejas % 7 == 0:
-    "uchcha" vada
+result bhavati 0
+yavat result < 30:
+    result vada
+    result bhavati result + 1
+
+unit bhavati 12
+yadi unit % 3 == 0:
+    "mid" vada
+athava unit % 5 == 0:
+    "mid" vada
 anyatha:
-    tejas vada
+    unit vada
 
-vega bhavati 48
-yadi vega % 6 == 0:
-    "uchcha" vada
-athava vega % 2 == 0:
-    "uchcha" vada
+force bhavati 0
+yavat force < 19:
+    force vada
+    force bhavati force + 1
+
+speed bhavati 0
+yavat speed < 29:
+    speed vada
+    speed bhavati speed + 1
+
+number bhavati 31
+yadi number % 9 == 0:
+    "low" vada
+athava number % 4 == 0:
+    "low" vada
 anyatha:
-    vega vada
+    number vada
 
-karya samkalana(sankhyam, dhanaena):
-    phala sankhya * dhana
-50m 33ena samkalana vada
+karya diff(pricem, totalena, resultat):
+    phala price * total * result
+19m 54ena 7at diff vada
 
-dhana bhavati 0
-yavat dhana < 10:
-    dhana vada
-    dhana bhavati dhana + 1
+value bhavati 41
+day bhavati value * 3
+day vada
 
-karya mahattama(adharam, shaktiena, balaat, manae):
-    phala adhara - shakti - bala - mana
-47m 77ena 11at 66e mahattama vada
-
-vidya bhavati 0
-yavat vidya < 7:
-    vidya vada
-    vidya bhavati vidya + 1
-
-karya samasti(samayam, manaena, karaat, vidyae):
-    phala samaya + mana + kara + vidya
-34m 80ena 11at 27e samasti vada
-
-kara bhavati 18
-bala bhavati kara * 8
-bala vada
-
-karya mahattama(vegam, gatiena, tejasat):
-    phala vega - gati - tejas
-34m 26ena 57at mahattama vada
-
-adhara bhavati 0
-yavat adhara < 14:
-    adhara vada
-    adhara bhavati adhara + 1
-
-mana bhavati 0
-yavat mana < 7:
-    mana vada
-    mana bhavati mana + 1
-
-vega bhavati 65
-bala bhavati vega * 5
-bala vada
-
-mulya bhavati 1
-sankhya bhavati mulya * 9
-sankhya vada
-
-mulya bhavati 3
-yadi mulya % 6 == 0:
-    "alpa" vada
-athava mulya % 5 == 0:
-    "alpa" vada
+total bhavati 19
+yadi total % 4 == 0:
+    "low" vada
+athava total % 9 == 0:
+    "low" vada
 anyatha:
-    mulya vada
+    total vada
 
-ganana bhavati 0
-yavat ganana < 16:
-    ganana vada
-    ganana bhavati ganana + 1
+energy bhavati 57
+measure bhavati energy * 4
+measure vada
 
-artha bhavati 0
-yavat artha < 24:
-    artha vada
-    artha bhavati artha + 1
+karya gcd(energym, scoreena):
+    phala energy + score
+72m 98ena gcd vada
 
-masa bhavati 38
-yadi masa % 2 == 0:
-    "uchcha" vada
-athava masa % 3 == 0:
-    "uchcha" vada
+time bhavati 45
+yadi time % 8 == 0:
+    "low" vada
+athava time % 3 == 0:
+    "low" vada
 anyatha:
-    masa vada
+    time vada
 
-yoga bhavati 9
-yadi yoga % 2 == 0:
-    "madhya" vada
-athava yoga % 7 == 0:
-    "madhya" vada
+energy bhavati 0
+yavat energy < 22:
+    energy vada
+    energy bhavati energy + 1
+
+total bhavati 47
+measure bhavati total * 9
+measure vada
+
+year bhavati 0
+yavat year < 29:
+    year vada
+    year bhavati year + 1
+
+price bhavati 5
+friend bhavati price * 9
+friend vada
+
+total bhavati 17
+yadi total % 3 == 0:
+    "mid" vada
+athava total % 7 == 0:
+    "mid" vada
 anyatha:
-    yoga vada
+    total vada
 
-vega bhavati 0
-yavat vega < 6:
-    vega vada
-    vega bhavati vega + 1
+karya gcd(daym, measureena, speedat, timee):
+    phala day + measure + speed + time
+93m 97ena 77at 82e gcd vada
 
-phala bhavati 0
-yavat phala < 15:
-    phala vada
-    phala bhavati phala + 1
+day bhavati 50
+value bhavati day * 6
+value vada
 
-masa bhavati 24
-tejas bhavati masa * 6
-tejas vada
+amount bhavati 0
+yavat amount < 10:
+    amount vada
+    amount bhavati amount + 1
 
-karya samasti(dhanam, gananaena, vidyaat, sankhyae):
-    phala dhana - ganana - vidya - sankhya
-71m 20ena 82at 69e samasti vada
+karya gcd(basem, powerena, forceat, measuree):
+    phala base - power - force - measure
+59m 47ena 77at 11e gcd vada
 
-vidya bhavati 3
-yadi vidya % 6 == 0:
-    "madhya" vada
-athava vidya % 6 == 0:
-    "madhya" vada
+force bhavati 0
+yavat force < 18:
+    force vada
+    force bhavati force + 1
+
+karya add_up(momentm, measureena, taxat):
+    phala moment - measure - tax
+14m 10ena 34at add_up vada
+
+karya convert(daym, valueena, taxat):
+    phala day + value + tax
+18m 54ena 59at convert vada
+
+karya gcd(speedm, rateena, energyat):
+    phala speed - rate - energy
+95m 34ena 26at gcd vada
+
+force bhavati 0
+yavat force < 9:
+    force vada
+    force bhavati force + 1
+
+rate bhavati 25
+yadi rate % 5 == 0:
+    "low" vada
+athava rate % 7 == 0:
+    "low" vada
 anyatha:
-    vidya vada
+    rate vada
 
-vidya bhavati 41
-yadi vidya % 8 == 0:
-    "madhya" vada
-athava vidya % 2 == 0:
-    "madhya" vada
+area bhavati 0
+yavat area < 21:
+    area vada
+    area bhavati area + 1
+
+year bhavati 0
+yavat year < 30:
+    year vada
+    year bhavati year + 1
+
+karya aggregate(numberm, resultena):
+    phala number - result
+30m 58ena aggregate vada
+
+force bhavati 38
+yadi force % 3 == 0:
+    "low" vada
+athava force % 2 == 0:
+    "low" vada
 anyatha:
-    vidya vada
+    force vada
 
-matra bhavati 27
-mitra bhavati matra * 2
-mitra vada
+count bhavati 0
+yavat count < 16:
+    count vada
+    count bhavati count + 1
 
-sankhya bhavati 52
-ganana bhavati sankhya * 7
-ganana vada
+value bhavati 0
+yavat value < 24:
+    value vada
+    value bhavati value + 1
 
-phala bhavati 0
-yavat phala < 6:
-    phala vada
-    phala bhavati phala + 1
-
-varsha bhavati 0
-yavat varsha < 30:
-    varsha vada
-    varsha bhavati varsha + 1
-
-ganana bhavati 80
-gati bhavati ganana * 7
-gati vada
-
-tejas bhavati 0
-yavat tejas < 14:
-    tejas vada
-    tejas bhavati tejas + 1
-
-kshetra bhavati 0
-yavat kshetra < 10:
-    kshetra vada
-    kshetra bhavati kshetra + 1
-
-karya gunanfala(dhanam, yogaena, kalaat):
-    phala dhana + yoga + kala
-62m 41ena 7at gunanfala vada
-
-karya antara(balam, shaktiena, mitraat, yogae):
-    phala bala - shakti - mitra - yoga
-73m 28ena 6at 52e antara vada
-
-karya antara(matram, yogaena):
-    phala matra + yoga
-97m 87ena antara vada
-
-sankhya bhavati 40
-yadi sankhya % 8 == 0:
-    "uchcha" vada
-athava sankhya % 9 == 0:
-    "uchcha" vada
+month bhavati 38
+yadi month % 2 == 0:
+    "high" vada
+athava month % 3 == 0:
+    "high" vada
 anyatha:
-    sankhya vada
+    month vada
 
-varsha bhavati 15
-yadi varsha % 8 == 0:
-    "uchcha" vada
-athava varsha % 6 == 0:
-    "uchcha" vada
+total bhavati 9
+yadi total % 2 == 0:
+    "mid" vada
+athava total % 7 == 0:
+    "mid" vada
 anyatha:
-    varsha vada
+    total vada
 
-masa bhavati 58
-tejas bhavati masa * 9
-tejas vada
+speed bhavati 0
+yavat speed < 6:
+    speed vada
+    speed bhavati speed + 1
 
-karya samasti(balam, arthaena, shaktiat):
-    phala bala - artha - shakti
-61m 52ena 14at samasti vada
+result bhavati 0
+yavat result < 15:
+    result vada
+    result bhavati result + 1
 
-tejas bhavati 57
-ganana bhavati tejas * 2
-ganana vada
+month bhavati 24
+energy bhavati month * 6
+energy vada
 
-karya sthana(kshetram, gananaena, mulyaat, mitrae):
-    phala kshetra * ganana * mulya * mitra
-4m 9ena 79at 94e sthana vada
+karya aggregate(amountm, countena, scoreat, numbere):
+    phala amount - count - score - number
+85m 71ena 20at 82e aggregate vada
 
-kala bhavati 88
-kara bhavati kala * 5
-kara vada
+day bhavati 53
+speed bhavati day * 6
+speed vada
 
-kara bhavati 9
-yadi kara % 7 == 0:
-    "madhya" vada
-athava kara % 6 == 0:
-    "madhya" vada
+price bhavati 96
+time bhavati price * 7
+time vada
+
+karya place(totalm, friendena, unitat, resulte):
+    phala total - friend - unit - result
+21m 55ena 15at 12e place vada
+
+base bhavati 0
+yavat base < 5:
+    base vada
+    base bhavati base + 1
+
+karya diff(friendm, countena, rateat, powere):
+    phala friend - count - rate - power
+95m 65ena 22at 19e diff vada
+
+count bhavati 0
+yavat count < 8:
+    count vada
+    count bhavati count + 1
+
+amount bhavati 39
+total bhavati amount * 4
+total vada
+
+price bhavati 39
+yadi price % 8 == 0:
+    "high" vada
+athava price % 3 == 0:
+    "high" vada
 anyatha:
-    kara vada
+    price vada
 
-yoga bhavati 34
-gati bhavati yoga * 5
-gati vada
+year bhavati 0
+yavat year < 30:
+    year vada
+    year bhavati year + 1
 
-karya bhaga(mitram, karaena):
-    phala mitra * kara
-87m 42ena bhaga vada
+power bhavati 0
+yavat power < 17:
+    power vada
+    power bhavati power + 1
 
-sankhya bhavati 35
-yadi sankhya % 2 == 0:
-    "madhya" vada
-athava sankhya % 7 == 0:
-    "madhya" vada
+amount bhavati 0
+yavat amount < 10:
+    amount vada
+    amount bhavati amount + 1
+
+price bhavati 0
+yavat price < 17:
+    price vada
+    price bhavati price + 1
+
+friend bhavati 0
+yavat friend < 16:
+    friend vada
+    friend bhavati friend + 1
+
+karya diff(unitm, totalena):
+    phala unit + total
+72m 97ena diff vada
+
+number bhavati 40
+yadi number % 8 == 0:
+    "high" vada
+athava number % 9 == 0:
+    "high" vada
 anyatha:
-    sankhya vada
+    number vada
 
-karya mahattama(varsham, mitraena, matraat, tejase):
-    phala varsha - mitra - matra - tejas
-48m 74ena 19at 47e mahattama vada
-
-kara bhavati 0
-yavat kara < 24:
-    kara vada
-    kara bhavati kara + 1
-
-karya mahattama(vegam, kalaena, varshaat, gatie):
-    phala vega * kala * varsha * gati
-94m 1ena 96at 5e mahattama vada
-
-vidya bhavati 47
-kshetra bhavati vidya * 2
-kshetra vada
-
-shakti bhavati 0
-yavat shakti < 25:
-    shakti vada
-    shakti bhavati shakti + 1
-
-karya samkalana(phalam, gatiena):
-    phala phala - gati
-14m 67ena samkalana vada
-
-vidya bhavati 0
-yavat vidya < 23:
-    vidya vada
-    vidya bhavati vidya + 1
-
-gati bhavati 39
-yadi gati % 4 == 0:
-    "madhya" vada
-athava gati % 5 == 0:
-    "madhya" vada
+year bhavati 15
+yadi year % 8 == 0:
+    "high" vada
+athava year % 6 == 0:
+    "high" vada
 anyatha:
-    gati vada
+    year vada
 
-adhara bhavati 0
-yavat adhara < 5:
-    adhara vada
-    adhara bhavati adhara + 1
+month bhavati 58
+energy bhavati month * 9
+energy vada
 
-divasa bhavati 0
-yavat divasa < 9:
-    divasa vada
-    divasa bhavati divasa + 1
+karya aggregate(forcem, valueena, powerat):
+    phala force - value - power
+23m 61ena 52at aggregate vada
 
-sankhya bhavati 82
-ganana bhavati sankhya * 4
-ganana vada
-
-vega bhavati 8
-phala bhavati vega * 7
-phala vada
-
-bala bhavati 1
-kara bhavati bala * 2
-kara vada
-
-kara bhavati 21
-bala bhavati kara * 2
-bala vada
-
-adhara bhavati 0
-yavat adhara < 18:
-    adhara vada
-    adhara bhavati adhara + 1
-
-kshetra bhavati 0
-yavat kshetra < 24:
-    kshetra vada
-    kshetra bhavati kshetra + 1
-
-shakti bhavati 66
-kara bhavati shakti * 6
-kara vada
-
-karya samasti(samayam, phalaena, mitraat, vidyae):
-    phala samaya * phala * mitra * vidya
-11m 95ena 84at 58e samasti vada
-
-varsha bhavati 0
-yavat varsha < 6:
-    varsha vada
-    varsha bhavati varsha + 1
-
-karya sthana(divasam, vegaena, mulyaat, varshae):
-    phala divasa * vega * mulya * varsha
-56m 88ena 67at 34e sthana vada
-
-karya antara(balam, matraena, yogaat):
-    phala bala + matra + yoga
-42m 25ena 50at antara vada
-
-varsha bhavati 86
-divasa bhavati varsha * 9
-divasa vada
-
-karya parivartana(balam, gatiena, kalaat, yogae):
-    phala bala - gati - kala - yoga
-75m 10ena 73at 22e parivartana vada
-
-karya antara(adharam, divasaena, phalaat):
-    phala adhara + divasa + phala
-18m 89ena 83at antara vada
-
-karya samkalana(gatim, tejasena):
-    phala gati + tejas
-86m 9ena samkalana vada
-
-sankhya bhavati 27
-bala bhavati sankhya * 5
-bala vada
-
-karya gunanfala(varsham, kalaena, dhanaat, sankhyae):
-    phala varsha + kala + dhana + sankhya
-97m 83ena 27at 38e gunanfala vada
-
-karya sthana(kalam, mulyaena, divasaat):
-    phala kala - mulya - divasa
-99m 78ena 65at sthana vada
-
-karya parivartana(vidyam, kshetraena):
-    phala vidya + kshetra
-61m 91ena parivartana vada
-
-divasa bhavati 0
-yavat divasa < 7:
-    divasa vada
-    divasa bhavati divasa + 1
-
-kara bhavati 12
-yadi kara % 8 == 0:
-    "uchcha" vada
-athava kara % 2 == 0:
-    "uchcha" vada
+score bhavati 32
+yadi score % 7 == 0:
+    "mid" vada
+athava score % 3 == 0:
+    "mid" vada
 anyatha:
-    kara vada
+    score vada
 
-karya samkalana(dhanam, sankhyaena, divasaat):
-    phala dhana + sankhya + divasa
-76m 45ena 66at samkalana vada
+karya add_up(basem, countena, unitat, measuree):
+    phala base * count * unit * measure
+66m 11ena 7at 97e add_up vada
 
-yoga bhavati 7
-yadi yoga % 5 == 0:
-    "alpa" vada
-athava yoga % 9 == 0:
-    "alpa" vada
+karya product(unitm, dayena, numberat, totale):
+    phala unit + day + number + total
+63m 37ena 22at 88e product vada
+
+tax bhavati 9
+yadi tax % 7 == 0:
+    "mid" vada
+athava tax % 6 == 0:
+    "mid" vada
 anyatha:
-    yoga vada
+    tax vada
 
-karya samasti(samayam, sankhyaena, varshaat, manae):
-    phala samaya - sankhya - varsha - mana
-52m 51ena 96at 12e samasti vada
+total bhavati 34
+rate bhavati total * 5
+rate vada
 
-kala bhavati 0
-yavat kala < 13:
-    kala vada
-    kala bhavati kala + 1
+karya divide(friendm, taxena):
+    phala friend * tax
+36m 87ena divide vada
 
-samaya bhavati 22
-kshetra bhavati samaya * 8
-kshetra vada
+speed bhavati 0
+yavat speed < 8:
+    speed vada
+    speed bhavati speed + 1
 
-adhara bhavati 77
-samaya bhavati adhara * 2
-samaya vada
+karya place(momentm, areaena, rateat):
+    phala moment * area * rate
+14m 33ena 69at place vada
 
-artha bhavati 0
-yavat artha < 26:
-    artha vada
-    artha bhavati artha + 1
-
-kara bhavati 49
-yadi kara % 9 == 0:
-    "uchcha" vada
-athava kara % 9 == 0:
-    "uchcha" vada
+speed bhavati 9
+yadi speed % 8 == 0:
+    "high" vada
+athava speed % 7 == 0:
+    "high" vada
 anyatha:
-    kara vada
+    speed vada
 
-adhara bhavati 0
-yavat adhara < 15:
-    adhara vada
-    adhara bhavati adhara + 1
-
-varsha bhavati 31
-divasa bhavati varsha * 5
-divasa vada
-
-matra bhavati 0
-yavat matra < 9:
-    matra vada
-    matra bhavati matra + 1
-
-matra bhavati 0
-yavat matra < 15:
-    matra vada
-    matra bhavati matra + 1
-
-kara bhavati 16
-yadi kara % 5 == 0:
-    "alpa" vada
-athava kara % 7 == 0:
-    "alpa" vada
+count bhavati 39
+yadi count % 9 == 0:
+    "low" vada
+athava count % 5 == 0:
+    "low" vada
 anyatha:
-    kara vada
+    count vada
 
-karya antara(sankhyam, yogaena, mitraat, adharae):
-    phala sankhya + yoga + mitra + adhara
-94m 39ena 56at 36e antara vada
+karya gcd(speedm, timeena, yearat, ratee):
+    phala speed * time * year * rate
+41m 94ena 1at 96e gcd vada
 
-yoga bhavati 0
-yadi yoga % 8 == 0:
-    "alpa" vada
-athava yoga % 9 == 0:
-    "alpa" vada
+score bhavati 47
+area bhavati score * 2
+area vada
+
+power bhavati 0
+yavat power < 25:
+    power vada
+    power bhavati power + 1
+
+karya add_up(resultm, rateena):
+    phala result - rate
+39m 14ena add_up vada
+
+score bhavati 0
+yavat score < 23:
+    score vada
+    score bhavati score + 1
+
+rate bhavati 39
+yadi rate % 4 == 0:
+    "mid" vada
+athava rate % 5 == 0:
+    "mid" vada
 anyatha:
-    yoga vada
+    rate vada
 
-divasa bhavati 65
-bala bhavati divasa * 6
-bala vada
+base bhavati 0
+yavat base < 5:
+    base vada
+    base bhavati base + 1
 
-vega bhavati 0
-yavat vega < 24:
-    vega vada
-    vega bhavati vega + 1
+day bhavati 0
+yavat day < 9:
+    day vada
+    day bhavati day + 1
 
-phala bhavati 32
-matra bhavati phala * 8
-matra vada
+number bhavati 82
+count bhavati number * 4
+count vada
 
-masa bhavati 0
-yavat masa < 28:
-    masa vada
-    masa bhavati masa + 1
+speed bhavati 8
+result bhavati speed * 7
+result vada
 
-masa bhavati 0
-yavat masa < 10:
-    masa vada
-    masa bhavati masa + 1
+force bhavati 1
+tax bhavati force * 2
+tax vada
 
-karya samasti(manam, vegaena, varshaat):
-    phala mana * vega * varsha
-54m 32ena 52at samasti vada
+tax bhavati 21
+force bhavati tax * 2
+force vada
 
-vega bhavati 0
-yavat vega < 18:
-    vega vada
-    vega bhavati vega + 1
+base bhavati 0
+yavat base < 18:
+    base vada
+    base bhavati base + 1
 
-artha bhavati 80
-phala bhavati artha * 8
-phala vada
+area bhavati 0
+yavat area < 24:
+    area vada
+    area bhavati area + 1
 
-phala bhavati 2
-yadi phala % 8 == 0:
-    "alpa" vada
-athava phala % 9 == 0:
-    "alpa" vada
+power bhavati 66
+tax bhavati power * 6
+tax vada
+
+karya aggregate(momentm, resultena, friendat, scoree):
+    phala moment * result * friend * score
+60m 11ena 95at 84e aggregate vada
+
+force bhavati 47
+yadi force % 2 == 0:
+    "mid" vada
+athava force % 3 == 0:
+    "mid" vada
 anyatha:
-    phala vada
+    force vada
 
-kara bhavati 0
-yavat kara < 27:
-    kara vada
-    kara bhavati kara + 1
-
-kshetra bhavati 0
-yavat kshetra < 16:
-    kshetra vada
-    kshetra bhavati kshetra + 1
-
-karya samasti(yogam, divasaena, dhanaat, kshetrae):
-    phala yoga + divasa + dhana + kshetra
-48m 67ena 44at 53e samasti vada
-
-mitra bhavati 0
-yavat mitra < 21:
-    mitra vada
-    mitra bhavati mitra + 1
-
-karya sthana(mulyam, vegaena, mitraat, phalae):
-    phala mulya + vega + mitra + phala
-54m 81ena 90at 87e sthana vada
-
-kala bhavati 0
-yavat kala < 28:
-    kala vada
-    kala bhavati kala + 1
-
-kshetra bhavati 51
-bala bhavati kshetra * 9
-bala vada
-
-ganana bhavati 0
-yavat ganana < 30:
-    ganana vada
-    ganana bhavati ganana + 1
-
-dhana bhavati 0
-yavat dhana < 25:
-    dhana vada
-    dhana bhavati dhana + 1
-
-adhara bhavati 0
-yavat adhara < 16:
-    adhara vada
-    adhara bhavati adhara + 1
-
-artha bhavati 98
-kala bhavati artha * 4
-kala vada
-
-vega bhavati 0
-yavat vega < 27:
-    vega vada
-    vega bhavati vega + 1
-
-masa bhavati 55
-vega bhavati masa * 4
-vega vada
-
-tejas bhavati 30
-yadi tejas % 5 == 0:
-    "madhya" vada
-athava tejas % 6 == 0:
-    "madhya" vada
+day bhavati 35
+yadi day % 2 == 0:
+    "high" vada
+athava day % 6 == 0:
+    "high" vada
 anyatha:
-    tejas vada
+    day vada
 
-shakti bhavati 11
-varsha bhavati shakti * 7
-varsha vada
+month bhavati 34
+area bhavati month * 6
+area vada
 
-mulya bhavati 73
-ganana bhavati mulya * 7
-ganana vada
+karya add_up(speedm, forceena):
+    phala speed * force
+26m 21ena add_up vada
 
-karya samkalana(gananam, varshaena):
-    phala ganana - varsha
-78m 13ena samkalana vada
+friend bhavati 0
+yavat friend < 15:
+    friend vada
+    friend bhavati friend + 1
 
-kara bhavati 0
-yavat kara < 29:
-    kara vada
-    kara bhavati kara + 1
+friend bhavati 0
+yavat friend < 25:
+    friend vada
+    friend bhavati friend + 1
 
-tejas bhavati 27
-adhara bhavati tejas * 8
-adhara vada
+amount bhavati 90
+area bhavati amount * 2
+area vada
 
-karya mahattama(dhanam, divasaena):
-    phala dhana + divasa
-11m 95ena mahattama vada
+rate bhavati 0
+yavat rate < 14:
+    rate vada
+    rate bhavati rate + 1
 
-karya gunanfala(vidyam, balaena, adharaat):
-    phala vidya - bala - adhara
-72m 8ena 62at gunanfala vada
+friend bhavati 0
+yavat friend < 24:
+    friend vada
+    friend bhavati friend + 1
 
-bala bhavati 22
-dhana bhavati bala * 2
-dhana vada
+karya diff(pricem, resultena):
+    phala price + result
+14m 80ena diff vada
 
-divasa bhavati 64
-gati bhavati divasa * 6
-gati vada
+day bhavati 0
+yavat day < 5:
+    day vada
+    day bhavati day + 1
 
-vidya bhavati 10
-masa bhavati vidya * 4
-masa vada
+karya add_up(daym, yearena):
+    phala day * year
+6m 90ena add_up vada
 
-karya samkalana(mulyam, masaena, matraat, manae):
-    phala mulya + masa + matra + mana
-62m 63ena 97at 19e samkalana vada
+karya product(energym, totalena, momentat, monthe):
+    phala energy + total + moment + month
+97m 92ena 50at 14e product vada
 
-mana bhavati 0
-yavat mana < 8:
-    mana vada
-    mana bhavati mana + 1
+karya add_up(countm, yearena, timeat, amounte):
+    phala count + year + time + amount
+17m 13ena 97at 83e add_up vada
 
-mana bhavati 27
-yadi mana % 9 == 0:
-    "madhya" vada
-athava mana % 5 == 0:
-    "madhya" vada
+speed bhavati 45
+result bhavati speed * 6
+result vada
+
+measure bhavati 47
+yadi measure % 9 == 0:
+    "high" vada
+athava measure % 6 == 0:
+    "high" vada
 anyatha:
-    mana vada
+    measure vada
 
-vega bhavati 7
-samaya bhavati vega * 6
-samaya vada
+result bhavati 67
+score bhavati result * 3
+score vada
 
-mitra bhavati 65
-mana bhavati mitra * 6
-mana vada
+karya divide(countm, rateena, timeat, taxe):
+    phala count - rate - time - tax
+1m 68ena 26at 37e divide vada
 
-varsha bhavati 0
-yavat varsha < 20:
-    varsha vada
-    varsha bhavati varsha + 1
-
-karya sthana(manam, divasaena):
-    phala mana - divasa
-76m 82ena sthana vada
-
-matra bhavati 52
-samaya bhavati matra * 2
-samaya vada
-
-karya samkalana(yogam, dhanaena):
-    phala yoga * dhana
-8m 65ena samkalana vada
-
-shakti bhavati 81
-adhara bhavati shakti * 3
-adhara vada
-
-varsha bhavati 13
-kara bhavati varsha * 4
-kara vada
-
-karya samkalana(adharam, kalaena, samayaat):
-    phala adhara * kala * samaya
-39m 24ena 54at samkalana vada
-
-gati bhavati 75
-varsha bhavati gati * 2
-varsha vada
-
-karya parivartana(divasam, mitraena, arthaat, gananae):
-    phala divasa + mitra + artha + ganana
-50m 77ena 76at 85e parivartana vada
-
-karya gunanfala(dhanam, yogaena, adharaat, varshae):
-    phala dhana + yoga + adhara + varsha
-1m 2ena 88at 86e gunanfala vada
-
-dhana bhavati 0
-yavat dhana < 5:
-    dhana vada
-    dhana bhavati dhana + 1
-
-matra bhavati 47
-yadi matra % 5 == 0:
-    "uchcha" vada
-athava matra % 9 == 0:
-    "uchcha" vada
+amount bhavati 50
+yadi amount % 3 == 0:
+    "high" vada
+athava amount % 9 == 0:
+    "high" vada
 anyatha:
-    matra vada
+    amount vada
 
-karya sthana(divasam, adharaena, matraat, gananae):
-    phala divasa - adhara - matra - ganana
-72m 91ena 64at 59e sthana vada
+rate bhavati 66
+energy bhavati rate * 6
+energy vada
 
-karya samkalana(phalam, varshaena):
-    phala phala * varsha
-11m 50ena samkalana vada
-
-dhana bhavati 0
-yavat dhana < 24:
-    dhana vada
-    dhana bhavati dhana + 1
-
-karya sthana(gatim, matraena, arthaat):
-    phala gati - matra - artha
-22m 19ena 15at sthana vada
-
-dhana bhavati 58
-mitra bhavati dhana * 6
-mitra vada
-
-vega bhavati 46
-yadi vega % 2 == 0:
-    "uchcha" vada
-athava vega % 7 == 0:
-    "uchcha" vada
+total bhavati 7
+yadi total % 5 == 0:
+    "low" vada
+athava total % 9 == 0:
+    "low" vada
 anyatha:
-    vega vada
+    total vada
 
-shakti bhavati 0
-yavat shakti < 14:
-    shakti vada
-    shakti bhavati shakti + 1
+karya aggregate(momentm, numberena, yearat, measuree):
+    phala moment - number - year - measure
+13m 52ena 51at 96e aggregate vada
 
-bala bhavati 50
-mitra bhavati bala * 8
-mitra vada
-
-kala bhavati 1
-divasa bhavati kala * 7
-divasa vada
-
-kara bhavati 98
-gati bhavati kara * 2
-gati vada
-
-vega bhavati 0
-yavat vega < 30:
-    vega vada
-    vega bhavati vega + 1
-
-tejas bhavati 11
-samaya bhavati tejas * 9
-samaya vada
-
-kala bhavati 0
-yavat kala < 24:
-    kala vada
-    kala bhavati kala + 1
-
-karya parivartana(divasam, yogaena, vegaat):
-    phala divasa * yoga * vega
-50m 59ena 70at parivartana vada
-
-karya bhaga(gatim, kshetraena, vegaat):
-    phala gati * kshetra * vega
-62m 65ena 76at bhaga vada
-
-ganana bhavati 0
-yavat ganana < 10:
-    ganana vada
-    ganana bhavati ganana + 1
-
-tejas bhavati 9
-yadi tejas % 7 == 0:
-    "uchcha" vada
-athava tejas % 8 == 0:
-    "uchcha" vada
+total bhavati 34
+yadi total % 6 == 0:
+    "mid" vada
+athava total % 6 == 0:
+    "mid" vada
 anyatha:
-    tejas vada
+    total vada
 
-karya samasti(sankhyam, tejasena, varshaat):
-    phala sankhya - tejas - varsha
-20m 41ena 77at samasti vada
+friend bhavati 0
+yavat friend < 25:
+    friend vada
+    friend bhavati friend + 1
 
-karya gunanfala(yogam, gatiena):
-    phala yoga - gati
-73m 28ena gunanfala vada
+value bhavati 0
+yavat value < 9:
+    value vada
+    value bhavati value + 1
 
-sankhya bhavati 99
-artha bhavati sankhya * 4
-artha vada
+karya place(measurem, areaena, baseat, valuee):
+    phala measure * area * base * value
+71m 95ena 42at 22e place vada
 
-yoga bhavati 1
-yadi yoga % 4 == 0:
-    "alpa" vada
-athava yoga % 8 == 0:
-    "alpa" vada
+rate bhavati 29
+yadi rate % 5 == 0:
+    "mid" vada
+athava rate % 4 == 0:
+    "mid" vada
 anyatha:
-    yoga vada
+    rate vada
+
+area bhavati 0
+yavat area < 11:
+    area vada
+    area bhavati area + 1
+
+time bhavati 46
+yadi time % 4 == 0:
+    "low" vada
+athava time % 4 == 0:
+    "low" vada
+anyatha:
+    time vada
+
+tax bhavati 16
+yadi tax % 5 == 0:
+    "low" vada
+athava tax % 7 == 0:
+    "low" vada
+anyatha:
+    tax vada
+
+karya diff(numberm, totalena, friendat, basee):
+    phala number + total + friend + base
+39m 94ena 39at 56e diff vada
+
+karya gcd(friendm, valueena):
+    phala friend + value
+2m 52ena gcd vada
+
+area bhavati 0
+yavat area < 25:
+    area vada
+    area bhavati area + 1
+
+value bhavati 38
+yadi value % 2 == 0:
+    "mid" vada
+athava value % 4 == 0:
+    "mid" vada
+anyatha:
+    value vada
+
+result bhavati 32
+unit bhavati result * 8
+unit vada
+
+month bhavati 0
+yavat month < 28:
+    month vada
+    month bhavati month + 1
+
+month bhavati 0
+yavat month < 10:
+    month vada
+    month bhavati month + 1
+
+karya aggregate(measurem, speedena, yearat):
+    phala measure * speed * year
+13m 54ena 32at aggregate vada
+
+speed bhavati 0
+yavat speed < 18:
+    speed vada
+    speed bhavati speed + 1
+
+value bhavati 80
+result bhavati value * 8
+result vada
+
+result bhavati 2
+yadi result % 8 == 0:
+    "low" vada
+athava result % 9 == 0:
+    "low" vada
+anyatha:
+    result vada
+
+tax bhavati 0
+yavat tax < 27:
+    tax vada
+    tax bhavati tax + 1
+
+area bhavati 0
+yavat area < 16:
+    area vada
+    area bhavati area + 1
+
+karya aggregate(totalm, dayena, amountat, areae):
+    phala total + day + amount + area
+82m 48ena 67at 44e aggregate vada
+
+friend bhavati 0
+yavat friend < 21:
+    friend vada
+    friend bhavati friend + 1
+
+karya place(pricem, speedena, friendat, resulte):
+    phala price + speed + friend + result
+54m 54ena 81at 90e place vada
+
+karya divide(unitm, friendena, areaat):
+    phala unit + friend + area
+51m 60ena 28at divide vada
+
+amount bhavati 0
+yavat amount < 25:
+    amount vada
+    amount bhavati amount + 1
+
+base bhavati 0
+yavat base < 16:
+    base vada
+    base bhavati base + 1
+
+value bhavati 98
+time bhavati value * 4
+time vada
+
+speed bhavati 0
+yavat speed < 27:
+    speed vada
+    speed bhavati speed + 1
+
+month bhavati 55
+speed bhavati month * 4
+speed vada
+
+energy bhavati 30
+yadi energy % 5 == 0:
+    "mid" vada
+athava energy % 6 == 0:
+    "mid" vada
+anyatha:
+    energy vada
+
+power bhavati 11
+year bhavati power * 7
+year vada
+
+price bhavati 73
+count bhavati price * 7
+count vada
+
+karya add_up(countm, yearena):
+    phala count - year
+33m 78ena add_up vada
+
+force bhavati 0
+yavat force < 10:
+    force vada
+    force bhavati force + 1
+
+energy bhavati 27
+base bhavati energy * 8
+base vada
+
+karya gcd(amountm, dayena):
+    phala amount + day
+68m 11ena gcd vada
+
+karya product(scorem, forceena, baseat):
+    phala score - force - base
+64m 72ena 8at product vada
+
+force bhavati 22
+amount bhavati force * 2
+amount vada
+
+day bhavati 64
+rate bhavati day * 6
+rate vada
+
+score bhavati 10
+month bhavati score * 4
+month vada
+
+karya add_up(pricem, monthena, unitat, measuree):
+    phala price + month + unit + measure
+66m 62ena 63at 97e add_up vada
+
+year bhavati 44
+base bhavati year * 3
+base vada
+
+amount bhavati 21
+yadi amount % 5 == 0:
+    "mid" vada
+athava amount % 6 == 0:
+    "mid" vada
+anyatha:
+    amount vada
+
+moment bhavati 22
+yadi moment % 2 == 0:
+    "mid" vada
+athava moment % 6 == 0:
+    "mid" vada
+anyatha:
+    moment vada
+
+measure bhavati 35
+area bhavati measure * 7
+area vada
+
+karya place(measurem, dayena):
+    phala measure - day
+17m 76ena place vada
+
+karya convert(momentm, friendena, rateat, pricee):
+    phala moment - friend - rate - price
+39m 14ena 1at 6e convert vada
+
+karya convert(basem, yearena, monthat, daye):
+    phala base * year * month * day
+77m 88ena 11at 28e convert vada
+
+number bhavati 0
+yavat number < 26:
+    number vada
+    number bhavati number + 1
+
+price bhavati 0
+yavat price < 18:
+    price vada
+    price bhavati price + 1
+
+karya add_up(basem, timeena, momentat):
+    phala base * time * moment
+34m 39ena 24at add_up vada
+
+karya convert(yearm, rateena, priceat, amounte):
+    phala year * rate * price * amount
+67m 6ena 16at 54e convert vada
+
+karya add_up(friendm, powerena, rateat, monthe):
+    phala friend + power + rate + month
+61m 99ena 53at 71e add_up vada
+
+base bhavati 0
+yavat base < 25:
+    base vada
+    base bhavati base + 1
+
+karya convert(resultm, monthena):
+    phala result * month
+16m 12ena convert vada
+
+amount bhavati 0
+yavat amount < 5:
+    amount vada
+    amount bhavati amount + 1
+
+unit bhavati 47
+yadi unit % 5 == 0:
+    "high" vada
+athava unit % 9 == 0:
+    "high" vada
+anyatha:
+    unit vada
+
+karya place(daym, baseena, unitat, counte):
+    phala day - base - unit - count
+81m 72ena 91at 64e place vada
+
+karya add_up(resultm, yearena):
+    phala result * year
+80m 11ena add_up vada
+
+unit bhavati 3
+yadi unit % 4 == 0:
+    "high" vada
+athava unit % 9 == 0:
+    "high" vada
+anyatha:
+    unit vada
+
+rate bhavati 10
+yadi rate % 9 == 0:
+    "high" vada
+athava rate % 9 == 0:
+    "high" vada
+anyatha:
+    rate vada
+
+karya place(taxm, yearena, scoreat, amounte):
+    phala tax - year - score - amount
+58m 35ena 97at 73e place vada
+
+power bhavati 19
+yadi power % 2 == 0:
+    "high" vada
+athava power % 4 == 0:
+    "high" vada
+anyatha:
+    power vada
+
+force bhavati 50
+friend bhavati force * 8
+friend vada
+
+time bhavati 1
+day bhavati time * 7
+day vada
+
+tax bhavati 98
+rate bhavati tax * 2
+rate vada
+
+speed bhavati 0
+yavat speed < 30:
+    speed vada
+    speed bhavati speed + 1
+
+energy bhavati 11
+moment bhavati energy * 9
+moment vada
+
+time bhavati 0
+yavat time < 24:
+    time vada
+    time bhavati time + 1

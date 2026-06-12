@@ -4,7 +4,7 @@ b bhavati 1
 i bhavati 0
 yavat i < 10:
     a vada
-    next bhavati a + b
+    nxt bhavati a + b
     a bhavati b
-    b bhavati next
+    b bhavati nxt
     i bhavati i + 1

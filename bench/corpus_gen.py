@@ -8,23 +8,16 @@ for the comparison. Seeded, so the corpus is deterministic.
 import os
 import random
 
-# Sanskrit-derived stems (Vāc) paired with English names (Python). Both are
-# "vocabulary a matched tokenizer would have seen"; neither side gets an edge.
+# Identifiers are arbitrary and user-chosen, so both languages use the SAME
+# names — only the language (keywords, case suffixes, structure) differs. This
+# isolates what the language imposes from what the programmer happens to name.
 NAMES = [
-    ("phala", "result"), ("mulya", "price"), ("ganana", "count"),
-    ("sankhya", "number"), ("adhara", "base"), ("kara", "tax"),
-    ("yoga", "total"), ("bala", "force"), ("vega", "speed"),
-    ("kala", "time"), ("mana", "measure"), ("tejas", "energy"),
-    ("mitra", "friend"), ("vidya", "score"), ("artha", "value"),
-    ("dhana", "amount"), ("kshetra", "area"), ("samaya", "moment"),
-    ("gati", "rate"), ("shakti", "power"), ("varsha", "year"),
-    ("masa", "month"), ("divasa", "day"), ("matra", "unit"),
+    "result", "price", "count", "number", "base", "tax", "total", "force",
+    "speed", "time", "measure", "energy", "friend", "score", "value", "amount",
+    "area", "moment", "rate", "power", "year", "month", "day", "unit",
 ]
-VERBS = [
-    ("samkalana", "add_up"), ("gunanfala", "product"), ("antara", "diff"),
-    ("bhaga", "divide"), ("mahattama", "gcd"), ("sthana", "place"),
-    ("parivartana", "convert"), ("samasti", "aggregate"),
-]
+VERBS = ["add_up", "product", "diff", "divide", "gcd", "place",
+         "convert", "aggregate"]
 # karma -m, karaṇa -ena, apādāna -at, adhikaraṇa -e: these round-trip cleanly
 # through the case splitter (no -aya/-sya sandhi collisions in generated code).
 CASES = [("m", ""), ("ena", ""), ("at", ""), ("e", "")]
@@ -32,76 +25,69 @@ OPS = ["+", "-", "*"]
 
 
 def _func(rng):
-    vac_name, py_name = rng.choice(VERBS)
+    name = rng.choice(VERBS)
     arity = rng.randint(2, 4)
     picks = rng.sample(NAMES, arity)
     cases = CASES[:arity]
-    body_terms = []
-    for (vstem, _), (suf, _) in zip(picks, cases):
-        body_terms.append(vstem)
-    expr_vac = f" {rng.choice(OPS)} ".join(body_terms)
-    py_body = [p for _, p in picks]
-    expr_py = f" {rng.choice(OPS)} ".join(py_body)
+    expr = f" {rng.choice(OPS)} ".join(picks)
 
-    vac_params = ", ".join(f"{v}{suf}" for (v, _), (suf, _) in zip(picks, cases))
-    py_params = ", ".join(p for _, p in picks)
+    vac_params = ", ".join(f"{v}{suf}" for v, (suf, _) in zip(picks, cases))
+    py_params = ", ".join(picks)
+    args_vac = " ".join(f"{rng.randint(1, 99)}{suf}" for suf, _ in cases)
+    args_py = ", ".join(f"{n}={rng.randint(1, 99)}" for n in picks)
 
-    args_vac = " ".join(f"{rng.randint(1, 99)}{suf}" for (suf, _) in cases)
-    args_py = ", ".join(f"{n}={rng.randint(1, 99)}" for _, n in
-                        [(None, p) for _, p in picks])
-
-    vac = (f"karya {vac_name}({vac_params}):\n"
-           f"    phala {expr_vac}\n"
-           f"{args_vac} {vac_name} vada\n")
-    py = (f"def {py_name}({py_params}):\n"
-          f"    return {expr_py}\n"
-          f"print({py_name}({args_py}))\n")
+    vac = (f"karya {name}({vac_params}):\n"
+           f"    phala {expr}\n"
+           f"{args_vac} {name} vada\n")
+    py = (f"def {name}({py_params}):\n"
+          f"    return {expr}\n"
+          f"print({name}({args_py}))\n")
     return vac, py
 
 
 def _while(rng):
-    v, p = rng.choice(NAMES)
+    v = rng.choice(NAMES)
     limit = rng.randint(5, 30)
     vac = (f"{v} bhavati 0\n"
            f"yavat {v} < {limit}:\n"
            f"    {v} vada\n"
            f"    {v} bhavati {v} + 1\n")
-    py = (f"{p} = 0\n"
-          f"while {p} < {limit}:\n"
-          f"    print({p})\n"
-          f"    {p} = {p} + 1\n")
+    py = (f"{v} = 0\n"
+          f"while {v} < {limit}:\n"
+          f"    print({v})\n"
+          f"    {v} = {v} + 1\n")
     return vac, py
 
 
 def _branch(rng):
-    v, p = rng.choice(NAMES)
+    v = rng.choice(NAMES)
     a, b = rng.randint(2, 9), rng.randint(2, 9)
-    sa, sp = rng.choice([("alpa", "low"), ("madhya", "mid"), ("uchcha", "high")])
+    label = rng.choice(["low", "mid", "high"])
     vac = (f"{v} bhavati {rng.randint(0, 50)}\n"
            f"yadi {v} % {a} == 0:\n"
-           f"    \"{sa}\" vada\n"
+           f"    \"{label}\" vada\n"
            f"athava {v} % {b} == 0:\n"
-           f"    \"{sa}\" vada\n"
+           f"    \"{label}\" vada\n"
            f"anyatha:\n"
            f"    {v} vada\n")
-    py = (f"{p} = {rng.randint(0, 50)}\n"
-          f"if {p} % {a} == 0:\n"
-          f"    print(\"{sp}\")\n"
-          f"elif {p} % {b} == 0:\n"
-          f"    print(\"{sp}\")\n"
+    py = (f"{v} = {rng.randint(0, 50)}\n"
+          f"if {v} % {a} == 0:\n"
+          f"    print(\"{label}\")\n"
+          f"elif {v} % {b} == 0:\n"
+          f"    print(\"{label}\")\n"
           f"else:\n"
-          f"    print({p})\n")
+          f"    print({v})\n")
     return vac, py
 
 
 def _seq(rng):
-    (v1, p1), (v2, p2) = rng.sample(NAMES, 2)
+    v1, v2 = rng.sample(NAMES, 2)
     vac = (f"{v1} bhavati {rng.randint(1, 99)}\n"
            f"{v2} bhavati {v1} * {rng.randint(2, 9)}\n"
            f"{v2} vada\n")
-    py = (f"{p1} = {rng.randint(1, 99)}\n"
-          f"{p2} = {p1} * {rng.randint(2, 9)}\n"
-          f"print({p2})\n")
+    py = (f"{v1} = {rng.randint(1, 99)}\n"
+          f"{v2} = {v1} * {rng.randint(2, 9)}\n"
+          f"print({v2})\n")
     return vac, py
 
 

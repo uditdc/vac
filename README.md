@@ -91,18 +91,26 @@ python3 vac.py -c '"namaste" vada'
 
 ## Measuring the hypothesis
 
-- `bench/compare.py` — equivalent Vāc/Python programs, token counts under
-  `tiktoken` (LLM cost today) and under each language's own lexer (grammar
-  density). Vāc: **1.37×** LLM tokens but **0.85×** lexemes.
-- `bench/tokenizer_compare.py` — trains a BPE tokenizer on a Vāc corpus and an
-  equal one on Python (`bench/bpe.py`, `bench/corpus_gen.py`), then re-measures.
-  The result flips to **0.96×**: once the tokenizer has seen the language, Vāc
-  wins. This is the honest test of "can an LLM code in fewer tokens?"
+Identifiers are held identical across both languages (they're arbitrary), so the
+measurement isolates what the *language* imposes — keywords and structure.
 
-| tokenizer | Vāc vs Python |
+- `bench/compare.py` — token counts under `tiktoken` (LLM cost today) and under
+  each language's own lexer (grammar density).
+- `bench/keyword_select.py` — tokenizer-aware keyword selection (strategy 2, zero
+  training): picks the cheapest Sanskrit surface form per keyword for a target
+  tokenizer (e.g. `bhavati` → `भव`); the chosen dialect still runs.
+- `bench/tokenizer_compare.py` — trains a matched BPE on a Vāc corpus and an
+  equal one on Python (`bench/bpe.py`, `bench/corpus_gen.py`).
+
+| measurement | Vāc vs Python |
 |---|---|
-| cl100k_base (today, Vāc unseen) | 1.37× — loses |
-| matched BPE (~400 vocab) | 0.96× — wins |
-| structural ceiling (1 token/lexeme) | 0.85× — asymptote |
+| structural lexemes (tokenizer-neutral) | 0.85× — grammar denser |
+| cl100k_base (today) | 1.26× |
+| o200k_base + keyword-optimized (no training) | **1.07× — ≈ parity** |
+| matched BPE (~400 vocab) | 1.02× — ≈ parity |
+
+The honest headline: the kāraka grammar is ~15% denser in lexemes, but whitespace
+and case-suffix subtokens erode that to **rough parity** on real tokenizers —
+modest, not dramatic.
 
 Full writeup in [`FINDINGS.md`](FINDINGS.md).

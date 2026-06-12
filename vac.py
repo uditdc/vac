@@ -27,6 +27,41 @@ KEYWORDS = {
     "satya", "asatya", "sunya", "ca", "va", "na",
 }
 
+# Surface synonyms per canonical word — alternative Sanskrit forms (Devanagari
+# and romanized) that all mean the same construct. Tokenizer-aware keyword
+# selection (bench/keyword_select.py) picks whichever form is cheapest for a
+# given tokenizer; every form here is accepted by the lexer, so the chosen
+# dialect still runs. The canonical (first key) is the default romanized form.
+SYNONYMS = {
+    "bhavati": ["भव", "भवति", "अस्तु", "स्यात्", "astu", "syat"],
+    "yavat":   ["यावत्", "यदा"],
+    "yadi":    ["यदि", "चेत्", "cet"],
+    "athava":  ["अथवा", "अथ", "atha"],
+    "anyatha": ["अन्यथा"],
+    "karya":   ["कार्य", "विधि", "क्रिया", "vidhi", "kriya"],
+    "phala":   ["फल", "अर्पय", "arpaya"],
+    "satya":   ["सत्य"],
+    "asatya":  ["असत्य", "मिथ्या", "mithya"],
+    "sunya":   ["शून्य", "रिक्त", "rikta"],
+    "ca":      ["च"],
+    "va":      ["वा"],
+    "na":      ["न"],
+    "vada":    ["वद", "ब्रूहि", "लिख", "bruhi", "likha"],
+    "yoga":    ["योग", "संकलन"],
+    "viyoga":  ["वियोग", "अन्तर", "antara"],
+    "guna":    ["गुण", "गुणन"],
+    "bhaga":   ["भाग", "हर", "hara"],
+}
+ALIASES = {surf: canon for canon, surfs in SYNONYMS.items() for surf in surfs}
+
+
+def _is_word_start(c):
+    return c.isalpha() or c == "_" or "ऀ" <= c <= "ॿ"
+
+
+def _is_word_cont(c):
+    return c.isalnum() or c == "_" or "ऀ" <= c <= "ॿ"
+
 
 def split_case(word, names):
     """Split a fused word into (stem, case) using the longest case suffix whose
@@ -130,11 +165,11 @@ def _lex_line(s, lineno, tokens):
             i, case = _read_case(s, j)
             tokens.append(Token("NUMBER", num, lineno, case))
             continue
-        if c.isalpha() or c == "_":
+        if _is_word_start(c):
             j = i
-            while j < n and (s[j].isalnum() or s[j] == "_"):
+            while j < n and _is_word_cont(s[j]):
                 j += 1
-            word = s[i:j]
+            word = ALIASES.get(s[i:j], s[i:j])
             i = j
             kind = "KW" if word in KEYWORDS else "WORD"
             tokens.append(Token(kind, word, lineno))
