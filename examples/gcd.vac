@@ -1,0 +1,11 @@
+# gcd — Euclid. Distinct kāraka roles (karma -m, karaṇa -ena) make the call
+# order-independent: the two prints are identical despite swapped order.
+karya mahattama(am, bena):
+    yavat b != 0:
+        t bhavati b
+        b bhavati a % b
+        a bhavati t
+    phala a
+
+[48m 18ena mahattama]m vada
+[18ena 48m mahattama]m vada

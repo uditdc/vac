@@ -1,0 +1,8 @@
+# factorial — recursion. The recursive call is embedded in arithmetic, so it
+# keeps [ ] brackets; the outer print is bracket-free.
+karya gunanfala(nm):
+    yadi nm <= 1:
+        phala 1
+    phala n * [(n - 1)m gunanfala]
+
+[5m gunanfala]m vada

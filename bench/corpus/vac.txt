@@ -1,0 +1,1487 @@
+adhara bhavati 34
+yadi adhara % 8 == 0:
+    "alpa" vada
+athava adhara % 2 == 0:
+    "alpa" vada
+anyatha:
+    adhara vada
+
+gati bhavati 5
+yadi gati % 2 == 0:
+    "alpa" vada
+athava gati % 5 == 0:
+    "alpa" vada
+anyatha:
+    gati vada
+
+ganana bhavati 12
+bala bhavati ganana * 8
+bala vada
+
+varsha bhavati 0
+yavat varsha < 25:
+    varsha vada
+    varsha bhavati varsha + 1
+
+karya parivartana(balam, mulyaena):
+    phala bala * mulya
+38m 54ena parivartana vada
+
+karya mahattama(masam, karaena, sankhyaat, gatie):
+    phala masa * kara * sankhya * gati
+25m 48ena 13at 71e mahattama vada
+
+dhana bhavati 0
+yavat dhana < 26:
+    dhana vada
+    dhana bhavati dhana + 1
+
+mana bhavati 75
+artha bhavati mana * 9
+artha vada
+
+kara bhavati 0
+yavat kara < 27:
+    kara vada
+    kara bhavati kara + 1
+
+ganana bhavati 0
+yavat ganana < 23:
+    ganana vada
+    ganana bhavati ganana + 1
+
+kshetra bhavati 28
+yadi kshetra % 9 == 0:
+    "uchcha" vada
+athava kshetra % 7 == 0:
+    "uchcha" vada
+anyatha:
+    kshetra vada
+
+karya gunanfala(vidyam, karaena, manaat, adharae):
+    phala vidya - kara - mana - adhara
+6m 86ena 10at 98e gunanfala vada
+
+shakti bhavati 5
+yadi shakti % 9 == 0:
+    "alpa" vada
+athava shakti % 9 == 0:
+    "alpa" vada
+anyatha:
+    shakti vada
+
+divasa bhavati 9
+masa bhavati divasa * 2
+masa vada
+
+kala bhavati 50
+divasa bhavati kala * 7
+divasa vada
+
+kara bhavati 13
+yadi kara % 3 == 0:
+    "alpa" vada
+athava kara % 9 == 0:
+    "alpa" vada
+anyatha:
+    kara vada
+
+adhara bhavati 31
+yadi adhara % 5 == 0:
+    "madhya" vada
+athava adhara % 8 == 0:
+    "madhya" vada
+anyatha:
+    adhara vada
+
+artha bhavati 0
+yavat artha < 17:
+    artha vada
+    artha bhavati artha + 1
+
+adhara bhavati 26
+yadi adhara % 8 == 0:
+    "uchcha" vada
+athava adhara % 6 == 0:
+    "uchcha" vada
+anyatha:
+    adhara vada
+
+bala bhavati 11
+adhara bhavati bala * 4
+adhara vada
+
+phala bhavati 0
+yavat phala < 20:
+    phala vada
+    phala bhavati phala + 1
+
+vega bhavati 0
+yavat vega < 14:
+    vega vada
+    vega bhavati vega + 1
+
+karya antara(samayam, tejasena, shaktiat):
+    phala samaya * tejas * shakti
+17m 89ena 66at antara vada
+
+karya samasti(samayam, mitraena, sankhyaat, dhanae):
+    phala samaya * mitra * sankhya * dhana
+8m 25ena 9at 27e samasti vada
+
+karya gunanfala(gatim, adharaena):
+    phala gati * adhara
+47m 79ena gunanfala vada
+
+shakti bhavati 0
+yavat shakti < 17:
+    shakti vada
+    shakti bhavati shakti + 1
+
+varsha bhavati 0
+yavat varsha < 13:
+    varsha vada
+    varsha bhavati varsha + 1
+
+shakti bhavati 7
+yadi shakti % 7 == 0:
+    "alpa" vada
+athava shakti % 9 == 0:
+    "alpa" vada
+anyatha:
+    shakti vada
+
+dhana bhavati 11
+kala bhavati dhana * 4
+kala vada
+
+dhana bhavati 33
+yadi dhana % 4 == 0:
+    "alpa" vada
+athava dhana % 2 == 0:
+    "alpa" vada
+anyatha:
+    dhana vada
+
+divasa bhavati 0
+yavat divasa < 22:
+    divasa vada
+    divasa bhavati divasa + 1
+
+karya mahattama(gananam, divasaena, vegaat, kshetrae):
+    phala ganana - divasa - vega - kshetra
+46m 99ena 29at 69e mahattama vada
+
+shakti bhavati 0
+yavat shakti < 30:
+    shakti vada
+    shakti bhavati shakti + 1
+
+bala bhavati 0
+yavat bala < 17:
+    bala vada
+    bala bhavati bala + 1
+
+yoga bhavati 0
+yavat yoga < 21:
+    yoga vada
+    yoga bhavati yoga + 1
+
+tejas bhavati 4
+matra bhavati tejas * 2
+matra vada
+
+yoga bhavati 22
+yadi yoga % 7 == 0:
+    "uchcha" vada
+athava yoga % 9 == 0:
+    "uchcha" vada
+anyatha:
+    yoga vada
+
+karya bhaga(balam, dhanaena):
+    phala bala + dhana
+27m 62ena bhaga vada
+
+karya samasti(tejasm, varshaena, gananaat, masae):
+    phala tejas + varsha + ganana + masa
+92m 97ena 26at 62e samasti vada
+
+karya parivartana(mitram, matraena, gananaat):
+    phala mitra * matra * ganana
+22m 17ena 4at parivartana vada
+
+shakti bhavati 0
+yavat shakti < 24:
+    shakti vada
+    shakti bhavati shakti + 1
+
+masa bhavati 20
+tejas bhavati masa * 4
+tejas vada
+
+karya antara(yogam, phalaena, vegaat):
+    phala yoga + phala + vega
+65m 31ena 98at antara vada
+
+adhara bhavati 95
+mulya bhavati adhara * 7
+mulya vada
+
+samaya bhavati 0
+yavat samaya < 9:
+    samaya vada
+    samaya bhavati samaya + 1
+
+karya samasti(shaktim, phalaena):
+    phala shakti + phala
+19m 61ena samasti vada
+
+karya samkalana(masam, kshetraena, samayaat):
+    phala masa - kshetra - samaya
+72m 8ena 32at samkalana vada
+
+karya samasti(phalam, gananaena, arthaat, manae):
+    phala phala * ganana * artha * mana
+78m 66ena 26at 89e samasti vada
+
+kshetra bhavati 90
+bala bhavati kshetra * 6
+bala vada
+
+adhara bhavati 16
+vidya bhavati adhara * 8
+vidya vada
+
+karya bhaga(gananam, yogaena, masaat):
+    phala ganana - yoga - masa
+20m 92ena 83at bhaga vada
+
+adhara bhavati 6
+yadi adhara % 9 == 0:
+    "uchcha" vada
+athava adhara % 5 == 0:
+    "uchcha" vada
+anyatha:
+    adhara vada
+
+kara bhavati 29
+masa bhavati kara * 4
+masa vada
+
+mana bhavati 26
+vidya bhavati mana * 7
+vidya vada
+
+phala bhavati 45
+yadi phala % 7 == 0:
+    "madhya" vada
+athava phala % 9 == 0:
+    "madhya" vada
+anyatha:
+    phala vada
+
+mana bhavati 80
+kshetra bhavati mana * 6
+kshetra vada
+
+karya bhaga(gananam, vegaena):
+    phala ganana - vega
+24m 35ena bhaga vada
+
+masa bhavati 52
+vega bhavati masa * 4
+vega vada
+
+ganana bhavati 11
+yadi ganana % 6 == 0:
+    "uchcha" vada
+athava ganana % 2 == 0:
+    "uchcha" vada
+anyatha:
+    ganana vada
+
+karya mahattama(varsham, gananaena):
+    phala varsha - ganana
+78m 29ena mahattama vada
+
+karya samasti(manam, samayaena):
+    phala mana - samaya
+80m 17ena samasti vada
+
+sankhya bhavati 0
+yavat sankhya < 10:
+    sankhya vada
+    sankhya bhavati sankhya + 1
+
+mulya bhavati 40
+yadi mulya % 4 == 0:
+    "madhya" vada
+athava mulya % 5 == 0:
+    "madhya" vada
+anyatha:
+    mulya vada
+
+kala bhavati 0
+yavat kala < 19:
+    kala vada
+    kala bhavati kala + 1
+
+vega bhavati 0
+yavat vega < 16:
+    vega vada
+    vega bhavati vega + 1
+
+karya mahattama(phalam, matraena):
+    phala phala * matra
+25m 66ena mahattama vada
+
+sankhya bhavati 84
+masa bhavati sankhya * 8
+masa vada
+
+kshetra bhavati 89
+kala bhavati kshetra * 5
+kala vada
+
+divasa bhavati 0
+yavat divasa < 28:
+    divasa vada
+    divasa bhavati divasa + 1
+
+mitra bhavati 0
+yavat mitra < 16:
+    mitra vada
+    mitra bhavati mitra + 1
+
+karya antara(gananam, varshaena):
+    phala ganana * varsha
+56m 21ena antara vada
+
+kshetra bhavati 37
+masa bhavati kshetra * 5
+masa vada
+
+karya samasti(karam, vegaena):
+    phala kara - vega
+34m 47ena samasti vada
+
+bala bhavati 22
+yadi bala % 2 == 0:
+    "alpa" vada
+athava bala % 6 == 0:
+    "alpa" vada
+anyatha:
+    bala vada
+
+karya sthana(gananam, dhanaena, vegaat):
+    phala ganana * dhana * vega
+26m 32ena 65at sthana vada
+
+karya antara(gatim, mulyaena, mitraat):
+    phala gati + mulya + mitra
+39m 81ena 30at antara vada
+
+masa bhavati 0
+yavat masa < 27:
+    masa vada
+    masa bhavati masa + 1
+
+mana bhavati 64
+matra bhavati mana * 4
+matra vada
+
+karya parivartana(divasam, kshetraena, adharaat, gatie):
+    phala divasa + kshetra + adhara + gati
+75m 92ena 88at 89e parivartana vada
+
+karya antara(tejasm, sankhyaena, mitraat, arthae):
+    phala tejas * sankhya * mitra * artha
+81m 3ena 81at 69e antara vada
+
+karya samasti(matram, kshetraena):
+    phala matra * kshetra
+85m 68ena samasti vada
+
+vega bhavati 34
+ganana bhavati vega * 5
+ganana vada
+
+matra bhavati 0
+yavat matra < 25:
+    matra vada
+    matra bhavati matra + 1
+
+dhana bhavati 10
+mitra bhavati dhana * 9
+mitra vada
+
+karya bhaga(shaktim, adharaena):
+    phala shakti - adhara
+84m 96ena bhaga vada
+
+phala bhavati 0
+yavat phala < 20:
+    phala vada
+    phala bhavati phala + 1
+
+karya samasti(masam, sankhyaena, divasaat):
+    phala masa + sankhya + divasa
+63m 38ena 91at samasti vada
+
+artha bhavati 71
+sankhya bhavati artha * 5
+sankhya vada
+
+phala bhavati 59
+kala bhavati phala * 3
+kala vada
+
+mitra bhavati 37
+yadi mitra % 5 == 0:
+    "alpa" vada
+athava mitra % 5 == 0:
+    "alpa" vada
+anyatha:
+    mitra vada
+
+matra bhavati 0
+yavat matra < 21:
+    matra vada
+    matra bhavati matra + 1
+
+tejas bhavati 45
+yadi tejas % 4 == 0:
+    "alpa" vada
+athava tejas % 6 == 0:
+    "alpa" vada
+anyatha:
+    tejas vada
+
+dhana bhavati 0
+yavat dhana < 20:
+    dhana vada
+    dhana bhavati dhana + 1
+
+phala bhavati 1
+kara bhavati phala * 9
+kara vada
+
+kala bhavati 19
+matra bhavati kala * 8
+matra vada
+
+sankhya bhavati 48
+yadi sankhya % 7 == 0:
+    "madhya" vada
+athava sankhya % 2 == 0:
+    "madhya" vada
+anyatha:
+    sankhya vada
+
+sankhya bhavati 92
+yoga bhavati sankhya * 2
+yoga vada
+
+tejas bhavati 37
+yadi tejas % 3 == 0:
+    "madhya" vada
+athava tejas % 8 == 0:
+    "madhya" vada
+anyatha:
+    tejas vada
+
+vidya bhavati 6
+yadi vidya % 6 == 0:
+    "madhya" vada
+athava vidya % 2 == 0:
+    "madhya" vada
+anyatha:
+    vidya vada
+
+varsha bhavati 27
+yadi varsha % 4 == 0:
+    "madhya" vada
+athava varsha % 5 == 0:
+    "madhya" vada
+anyatha:
+    varsha vada
+
+yoga bhavati 48
+yadi yoga % 7 == 0:
+    "alpa" vada
+athava yoga % 8 == 0:
+    "alpa" vada
+anyatha:
+    yoga vada
+
+samaya bhavati 93
+yoga bhavati samaya * 3
+yoga vada
+
+shakti bhavati 83
+adhara bhavati shakti * 6
+adhara vada
+
+kara bhavati 0
+yavat kara < 20:
+    kara vada
+    kara bhavati kara + 1
+
+mana bhavati 39
+kala bhavati mana * 6
+kala vada
+
+varsha bhavati 39
+bala bhavati varsha * 9
+bala vada
+
+karya antara(karam, gananaena, yogaat, kshetrae):
+    phala kara - ganana - yoga - kshetra
+29m 58ena 43at 98e antara vada
+
+bala bhavati 0
+yavat bala < 7:
+    bala vada
+    bala bhavati bala + 1
+
+mana bhavati 0
+yavat mana < 22:
+    mana vada
+    mana bhavati mana + 1
+
+karya sthana(tejasm, vegaena):
+    phala tejas * vega
+3m 96ena sthana vada
+
+matra bhavati 27
+kshetra bhavati matra * 8
+kshetra vada
+
+karya samasti(gatim, tejasena, adharaat):
+    phala gati * tejas * adhara
+68m 81ena 28at samasti vada
+
+mitra bhavati 58
+varsha bhavati mitra * 8
+varsha vada
+
+mulya bhavati 0
+yavat mulya < 18:
+    mulya vada
+    mulya bhavati mulya + 1
+
+gati bhavati 1
+dhana bhavati gati * 3
+dhana vada
+
+bala bhavati 29
+sankhya bhavati bala * 4
+sankhya vada
+
+ganana bhavati 6
+samaya bhavati ganana * 2
+samaya vada
+
+karya mahattama(varsham, vegaena):
+    phala varsha * vega
+56m 90ena mahattama vada
+
+karya gunanfala(kshetram, gatiena, yogaat):
+    phala kshetra - gati - yoga
+29m 77ena 1at gunanfala vada
+
+vega bhavati 83
+mana bhavati vega * 5
+mana vada
+
+phala bhavati 0
+yavat phala < 18:
+    phala vada
+    phala bhavati phala + 1
+
+mulya bhavati 43
+yadi mulya % 2 == 0:
+    "madhya" vada
+athava mulya % 5 == 0:
+    "madhya" vada
+anyatha:
+    mulya vada
+
+ganana bhavati 30
+vega bhavati ganana * 8
+vega vada
+
+mulya bhavati 44
+divasa bhavati mulya * 8
+divasa vada
+
+phala bhavati 0
+yavat phala < 30:
+    phala vada
+    phala bhavati phala + 1
+
+matra bhavati 12
+yadi matra % 3 == 0:
+    "madhya" vada
+athava matra % 5 == 0:
+    "madhya" vada
+anyatha:
+    matra vada
+
+bala bhavati 0
+yavat bala < 19:
+    bala vada
+    bala bhavati bala + 1
+
+vega bhavati 0
+yavat vega < 29:
+    vega vada
+    vega bhavati vega + 1
+
+sankhya bhavati 31
+yadi sankhya % 9 == 0:
+    "alpa" vada
+athava sankhya % 4 == 0:
+    "alpa" vada
+anyatha:
+    sankhya vada
+
+karya antara(mulyam, yogaena, phalaat):
+    phala mulya * yoga * phala
+54m 7ena 91at antara vada
+
+divasa bhavati 94
+mana bhavati divasa * 3
+mana vada
+
+yoga bhavati 19
+yadi yoga % 4 == 0:
+    "alpa" vada
+athava yoga % 9 == 0:
+    "alpa" vada
+anyatha:
+    yoga vada
+
+tejas bhavati 57
+mana bhavati tejas * 4
+mana vada
+
+karya mahattama(tejasm, vidyaena):
+    phala tejas + vidya
+98m 27ena mahattama vada
+
+vidya bhavati 30
+yadi vidya % 3 == 0:
+    "uchcha" vada
+athava vidya % 2 == 0:
+    "uchcha" vada
+anyatha:
+    vidya vada
+
+samaya bhavati 23
+yadi samaya % 9 == 0:
+    "madhya" vada
+athava samaya % 5 == 0:
+    "madhya" vada
+anyatha:
+    samaya vada
+
+phala bhavati 53
+varsha bhavati phala * 5
+varsha vada
+
+karya parivartana(artham, gananaena):
+    phala artha + ganana
+25m 96ena parivartana vada
+
+tejas bhavati 2
+yadi tejas % 6 == 0:
+    "uchcha" vada
+athava tejas % 7 == 0:
+    "uchcha" vada
+anyatha:
+    tejas vada
+
+vega bhavati 48
+yadi vega % 6 == 0:
+    "uchcha" vada
+athava vega % 2 == 0:
+    "uchcha" vada
+anyatha:
+    vega vada
+
+karya samkalana(sankhyam, dhanaena):
+    phala sankhya * dhana
+50m 33ena samkalana vada
+
+dhana bhavati 0
+yavat dhana < 10:
+    dhana vada
+    dhana bhavati dhana + 1
+
+karya mahattama(adharam, shaktiena, balaat, manae):
+    phala adhara - shakti - bala - mana
+47m 77ena 11at 66e mahattama vada
+
+vidya bhavati 0
+yavat vidya < 7:
+    vidya vada
+    vidya bhavati vidya + 1
+
+karya samasti(samayam, manaena, karaat, vidyae):
+    phala samaya + mana + kara + vidya
+34m 80ena 11at 27e samasti vada
+
+kara bhavati 18
+bala bhavati kara * 8
+bala vada
+
+karya mahattama(vegam, gatiena, tejasat):
+    phala vega - gati - tejas
+34m 26ena 57at mahattama vada
+
+adhara bhavati 0
+yavat adhara < 14:
+    adhara vada
+    adhara bhavati adhara + 1
+
+mana bhavati 0
+yavat mana < 7:
+    mana vada
+    mana bhavati mana + 1
+
+vega bhavati 65
+bala bhavati vega * 5
+bala vada
+
+mulya bhavati 1
+sankhya bhavati mulya * 9
+sankhya vada
+
+mulya bhavati 3
+yadi mulya % 6 == 0:
+    "alpa" vada
+athava mulya % 5 == 0:
+    "alpa" vada
+anyatha:
+    mulya vada
+
+ganana bhavati 0
+yavat ganana < 16:
+    ganana vada
+    ganana bhavati ganana + 1
+
+artha bhavati 0
+yavat artha < 24:
+    artha vada
+    artha bhavati artha + 1
+
+masa bhavati 38
+yadi masa % 2 == 0:
+    "uchcha" vada
+athava masa % 3 == 0:
+    "uchcha" vada
+anyatha:
+    masa vada
+
+yoga bhavati 9
+yadi yoga % 2 == 0:
+    "madhya" vada
+athava yoga % 7 == 0:
+    "madhya" vada
+anyatha:
+    yoga vada
+
+vega bhavati 0
+yavat vega < 6:
+    vega vada
+    vega bhavati vega + 1
+
+phala bhavati 0
+yavat phala < 15:
+    phala vada
+    phala bhavati phala + 1
+
+masa bhavati 24
+tejas bhavati masa * 6
+tejas vada
+
+karya samasti(dhanam, gananaena, vidyaat, sankhyae):
+    phala dhana - ganana - vidya - sankhya
+71m 20ena 82at 69e samasti vada
+
+vidya bhavati 3
+yadi vidya % 6 == 0:
+    "madhya" vada
+athava vidya % 6 == 0:
+    "madhya" vada
+anyatha:
+    vidya vada
+
+vidya bhavati 41
+yadi vidya % 8 == 0:
+    "madhya" vada
+athava vidya % 2 == 0:
+    "madhya" vada
+anyatha:
+    vidya vada
+
+matra bhavati 27
+mitra bhavati matra * 2
+mitra vada
+
+sankhya bhavati 52
+ganana bhavati sankhya * 7
+ganana vada
+
+phala bhavati 0
+yavat phala < 6:
+    phala vada
+    phala bhavati phala + 1
+
+varsha bhavati 0
+yavat varsha < 30:
+    varsha vada
+    varsha bhavati varsha + 1
+
+ganana bhavati 80
+gati bhavati ganana * 7
+gati vada
+
+tejas bhavati 0
+yavat tejas < 14:
+    tejas vada
+    tejas bhavati tejas + 1
+
+kshetra bhavati 0
+yavat kshetra < 10:
+    kshetra vada
+    kshetra bhavati kshetra + 1
+
+karya gunanfala(dhanam, yogaena, kalaat):
+    phala dhana + yoga + kala
+62m 41ena 7at gunanfala vada
+
+karya antara(balam, shaktiena, mitraat, yogae):
+    phala bala - shakti - mitra - yoga
+73m 28ena 6at 52e antara vada
+
+karya antara(matram, yogaena):
+    phala matra + yoga
+97m 87ena antara vada
+
+sankhya bhavati 40
+yadi sankhya % 8 == 0:
+    "uchcha" vada
+athava sankhya % 9 == 0:
+    "uchcha" vada
+anyatha:
+    sankhya vada
+
+varsha bhavati 15
+yadi varsha % 8 == 0:
+    "uchcha" vada
+athava varsha % 6 == 0:
+    "uchcha" vada
+anyatha:
+    varsha vada
+
+masa bhavati 58
+tejas bhavati masa * 9
+tejas vada
+
+karya samasti(balam, arthaena, shaktiat):
+    phala bala - artha - shakti
+61m 52ena 14at samasti vada
+
+tejas bhavati 57
+ganana bhavati tejas * 2
+ganana vada
+
+karya sthana(kshetram, gananaena, mulyaat, mitrae):
+    phala kshetra * ganana * mulya * mitra
+4m 9ena 79at 94e sthana vada
+
+kala bhavati 88
+kara bhavati kala * 5
+kara vada
+
+kara bhavati 9
+yadi kara % 7 == 0:
+    "madhya" vada
+athava kara % 6 == 0:
+    "madhya" vada
+anyatha:
+    kara vada
+
+yoga bhavati 34
+gati bhavati yoga * 5
+gati vada
+
+karya bhaga(mitram, karaena):
+    phala mitra * kara
+87m 42ena bhaga vada
+
+sankhya bhavati 35
+yadi sankhya % 2 == 0:
+    "madhya" vada
+athava sankhya % 7 == 0:
+    "madhya" vada
+anyatha:
+    sankhya vada
+
+karya mahattama(varsham, mitraena, matraat, tejase):
+    phala varsha - mitra - matra - tejas
+48m 74ena 19at 47e mahattama vada
+
+kara bhavati 0
+yavat kara < 24:
+    kara vada
+    kara bhavati kara + 1
+
+karya mahattama(vegam, kalaena, varshaat, gatie):
+    phala vega * kala * varsha * gati
+94m 1ena 96at 5e mahattama vada
+
+vidya bhavati 47
+kshetra bhavati vidya * 2
+kshetra vada
+
+shakti bhavati 0
+yavat shakti < 25:
+    shakti vada
+    shakti bhavati shakti + 1
+
+karya samkalana(phalam, gatiena):
+    phala phala - gati
+14m 67ena samkalana vada
+
+vidya bhavati 0
+yavat vidya < 23:
+    vidya vada
+    vidya bhavati vidya + 1
+
+gati bhavati 39
+yadi gati % 4 == 0:
+    "madhya" vada
+athava gati % 5 == 0:
+    "madhya" vada
+anyatha:
+    gati vada
+
+adhara bhavati 0
+yavat adhara < 5:
+    adhara vada
+    adhara bhavati adhara + 1
+
+divasa bhavati 0
+yavat divasa < 9:
+    divasa vada
+    divasa bhavati divasa + 1
+
+sankhya bhavati 82
+ganana bhavati sankhya * 4
+ganana vada
+
+vega bhavati 8
+phala bhavati vega * 7
+phala vada
+
+bala bhavati 1
+kara bhavati bala * 2
+kara vada
+
+kara bhavati 21
+bala bhavati kara * 2
+bala vada
+
+adhara bhavati 0
+yavat adhara < 18:
+    adhara vada
+    adhara bhavati adhara + 1
+
+kshetra bhavati 0
+yavat kshetra < 24:
+    kshetra vada
+    kshetra bhavati kshetra + 1
+
+shakti bhavati 66
+kara bhavati shakti * 6
+kara vada
+
+karya samasti(samayam, phalaena, mitraat, vidyae):
+    phala samaya * phala * mitra * vidya
+11m 95ena 84at 58e samasti vada
+
+varsha bhavati 0
+yavat varsha < 6:
+    varsha vada
+    varsha bhavati varsha + 1
+
+karya sthana(divasam, vegaena, mulyaat, varshae):
+    phala divasa * vega * mulya * varsha
+56m 88ena 67at 34e sthana vada
+
+karya antara(balam, matraena, yogaat):
+    phala bala + matra + yoga
+42m 25ena 50at antara vada
+
+varsha bhavati 86
+divasa bhavati varsha * 9
+divasa vada
+
+karya parivartana(balam, gatiena, kalaat, yogae):
+    phala bala - gati - kala - yoga
+75m 10ena 73at 22e parivartana vada
+
+karya antara(adharam, divasaena, phalaat):
+    phala adhara + divasa + phala
+18m 89ena 83at antara vada
+
+karya samkalana(gatim, tejasena):
+    phala gati + tejas
+86m 9ena samkalana vada
+
+sankhya bhavati 27
+bala bhavati sankhya * 5
+bala vada
+
+karya gunanfala(varsham, kalaena, dhanaat, sankhyae):
+    phala varsha + kala + dhana + sankhya
+97m 83ena 27at 38e gunanfala vada
+
+karya sthana(kalam, mulyaena, divasaat):
+    phala kala - mulya - divasa
+99m 78ena 65at sthana vada
+
+karya parivartana(vidyam, kshetraena):
+    phala vidya + kshetra
+61m 91ena parivartana vada
+
+divasa bhavati 0
+yavat divasa < 7:
+    divasa vada
+    divasa bhavati divasa + 1
+
+kara bhavati 12
+yadi kara % 8 == 0:
+    "uchcha" vada
+athava kara % 2 == 0:
+    "uchcha" vada
+anyatha:
+    kara vada
+
+karya samkalana(dhanam, sankhyaena, divasaat):
+    phala dhana + sankhya + divasa
+76m 45ena 66at samkalana vada
+
+yoga bhavati 7
+yadi yoga % 5 == 0:
+    "alpa" vada
+athava yoga % 9 == 0:
+    "alpa" vada
+anyatha:
+    yoga vada
+
+karya samasti(samayam, sankhyaena, varshaat, manae):
+    phala samaya - sankhya - varsha - mana
+52m 51ena 96at 12e samasti vada
+
+kala bhavati 0
+yavat kala < 13:
+    kala vada
+    kala bhavati kala + 1
+
+samaya bhavati 22
+kshetra bhavati samaya * 8
+kshetra vada
+
+adhara bhavati 77
+samaya bhavati adhara * 2
+samaya vada
+
+artha bhavati 0
+yavat artha < 26:
+    artha vada
+    artha bhavati artha + 1
+
+kara bhavati 49
+yadi kara % 9 == 0:
+    "uchcha" vada
+athava kara % 9 == 0:
+    "uchcha" vada
+anyatha:
+    kara vada
+
+adhara bhavati 0
+yavat adhara < 15:
+    adhara vada
+    adhara bhavati adhara + 1
+
+varsha bhavati 31
+divasa bhavati varsha * 5
+divasa vada
+
+matra bhavati 0
+yavat matra < 9:
+    matra vada
+    matra bhavati matra + 1
+
+matra bhavati 0
+yavat matra < 15:
+    matra vada
+    matra bhavati matra + 1
+
+kara bhavati 16
+yadi kara % 5 == 0:
+    "alpa" vada
+athava kara % 7 == 0:
+    "alpa" vada
+anyatha:
+    kara vada
+
+karya antara(sankhyam, yogaena, mitraat, adharae):
+    phala sankhya + yoga + mitra + adhara
+94m 39ena 56at 36e antara vada
+
+yoga bhavati 0
+yadi yoga % 8 == 0:
+    "alpa" vada
+athava yoga % 9 == 0:
+    "alpa" vada
+anyatha:
+    yoga vada
+
+divasa bhavati 65
+bala bhavati divasa * 6
+bala vada
+
+vega bhavati 0
+yavat vega < 24:
+    vega vada
+    vega bhavati vega + 1
+
+phala bhavati 32
+matra bhavati phala * 8
+matra vada
+
+masa bhavati 0
+yavat masa < 28:
+    masa vada
+    masa bhavati masa + 1
+
+masa bhavati 0
+yavat masa < 10:
+    masa vada
+    masa bhavati masa + 1
+
+karya samasti(manam, vegaena, varshaat):
+    phala mana * vega * varsha
+54m 32ena 52at samasti vada
+
+vega bhavati 0
+yavat vega < 18:
+    vega vada
+    vega bhavati vega + 1
+
+artha bhavati 80
+phala bhavati artha * 8
+phala vada
+
+phala bhavati 2
+yadi phala % 8 == 0:
+    "alpa" vada
+athava phala % 9 == 0:
+    "alpa" vada
+anyatha:
+    phala vada
+
+kara bhavati 0
+yavat kara < 27:
+    kara vada
+    kara bhavati kara + 1
+
+kshetra bhavati 0
+yavat kshetra < 16:
+    kshetra vada
+    kshetra bhavati kshetra + 1
+
+karya samasti(yogam, divasaena, dhanaat, kshetrae):
+    phala yoga + divasa + dhana + kshetra
+48m 67ena 44at 53e samasti vada
+
+mitra bhavati 0
+yavat mitra < 21:
+    mitra vada
+    mitra bhavati mitra + 1
+
+karya sthana(mulyam, vegaena, mitraat, phalae):
+    phala mulya + vega + mitra + phala
+54m 81ena 90at 87e sthana vada
+
+kala bhavati 0
+yavat kala < 28:
+    kala vada
+    kala bhavati kala + 1
+
+kshetra bhavati 51
+bala bhavati kshetra * 9
+bala vada
+
+ganana bhavati 0
+yavat ganana < 30:
+    ganana vada
+    ganana bhavati ganana + 1
+
+dhana bhavati 0
+yavat dhana < 25:
+    dhana vada
+    dhana bhavati dhana + 1
+
+adhara bhavati 0
+yavat adhara < 16:
+    adhara vada
+    adhara bhavati adhara + 1
+
+artha bhavati 98
+kala bhavati artha * 4
+kala vada
+
+vega bhavati 0
+yavat vega < 27:
+    vega vada
+    vega bhavati vega + 1
+
+masa bhavati 55
+vega bhavati masa * 4
+vega vada
+
+tejas bhavati 30
+yadi tejas % 5 == 0:
+    "madhya" vada
+athava tejas % 6 == 0:
+    "madhya" vada
+anyatha:
+    tejas vada
+
+shakti bhavati 11
+varsha bhavati shakti * 7
+varsha vada
+
+mulya bhavati 73
+ganana bhavati mulya * 7
+ganana vada
+
+karya samkalana(gananam, varshaena):
+    phala ganana - varsha
+78m 13ena samkalana vada
+
+kara bhavati 0
+yavat kara < 29:
+    kara vada
+    kara bhavati kara + 1
+
+tejas bhavati 27
+adhara bhavati tejas * 8
+adhara vada
+
+karya mahattama(dhanam, divasaena):
+    phala dhana + divasa
+11m 95ena mahattama vada
+
+karya gunanfala(vidyam, balaena, adharaat):
+    phala vidya - bala - adhara
+72m 8ena 62at gunanfala vada
+
+bala bhavati 22
+dhana bhavati bala * 2
+dhana vada
+
+divasa bhavati 64
+gati bhavati divasa * 6
+gati vada
+
+vidya bhavati 10
+masa bhavati vidya * 4
+masa vada
+
+karya samkalana(mulyam, masaena, matraat, manae):
+    phala mulya + masa + matra + mana
+62m 63ena 97at 19e samkalana vada
+
+mana bhavati 0
+yavat mana < 8:
+    mana vada
+    mana bhavati mana + 1
+
+mana bhavati 27
+yadi mana % 9 == 0:
+    "madhya" vada
+athava mana % 5 == 0:
+    "madhya" vada
+anyatha:
+    mana vada
+
+vega bhavati 7
+samaya bhavati vega * 6
+samaya vada
+
+mitra bhavati 65
+mana bhavati mitra * 6
+mana vada
+
+varsha bhavati 0
+yavat varsha < 20:
+    varsha vada
+    varsha bhavati varsha + 1
+
+karya sthana(manam, divasaena):
+    phala mana - divasa
+76m 82ena sthana vada
+
+matra bhavati 52
+samaya bhavati matra * 2
+samaya vada
+
+karya samkalana(yogam, dhanaena):
+    phala yoga * dhana
+8m 65ena samkalana vada
+
+shakti bhavati 81
+adhara bhavati shakti * 3
+adhara vada
+
+varsha bhavati 13
+kara bhavati varsha * 4
+kara vada
+
+karya samkalana(adharam, kalaena, samayaat):
+    phala adhara * kala * samaya
+39m 24ena 54at samkalana vada
+
+gati bhavati 75
+varsha bhavati gati * 2
+varsha vada
+
+karya parivartana(divasam, mitraena, arthaat, gananae):
+    phala divasa + mitra + artha + ganana
+50m 77ena 76at 85e parivartana vada
+
+karya gunanfala(dhanam, yogaena, adharaat, varshae):
+    phala dhana + yoga + adhara + varsha
+1m 2ena 88at 86e gunanfala vada
+
+dhana bhavati 0
+yavat dhana < 5:
+    dhana vada
+    dhana bhavati dhana + 1
+
+matra bhavati 47
+yadi matra % 5 == 0:
+    "uchcha" vada
+athava matra % 9 == 0:
+    "uchcha" vada
+anyatha:
+    matra vada
+
+karya sthana(divasam, adharaena, matraat, gananae):
+    phala divasa - adhara - matra - ganana
+72m 91ena 64at 59e sthana vada
+
+karya samkalana(phalam, varshaena):
+    phala phala * varsha
+11m 50ena samkalana vada
+
+dhana bhavati 0
+yavat dhana < 24:
+    dhana vada
+    dhana bhavati dhana + 1
+
+karya sthana(gatim, matraena, arthaat):
+    phala gati - matra - artha
+22m 19ena 15at sthana vada
+
+dhana bhavati 58
+mitra bhavati dhana * 6
+mitra vada
+
+vega bhavati 46
+yadi vega % 2 == 0:
+    "uchcha" vada
+athava vega % 7 == 0:
+    "uchcha" vada
+anyatha:
+    vega vada
+
+shakti bhavati 0
+yavat shakti < 14:
+    shakti vada
+    shakti bhavati shakti + 1
+
+bala bhavati 50
+mitra bhavati bala * 8
+mitra vada
+
+kala bhavati 1
+divasa bhavati kala * 7
+divasa vada
+
+kara bhavati 98
+gati bhavati kara * 2
+gati vada
+
+vega bhavati 0
+yavat vega < 30:
+    vega vada
+    vega bhavati vega + 1
+
+tejas bhavati 11
+samaya bhavati tejas * 9
+samaya vada
+
+kala bhavati 0
+yavat kala < 24:
+    kala vada
+    kala bhavati kala + 1
+
+karya parivartana(divasam, yogaena, vegaat):
+    phala divasa * yoga * vega
+50m 59ena 70at parivartana vada
+
+karya bhaga(gatim, kshetraena, vegaat):
+    phala gati * kshetra * vega
+62m 65ena 76at bhaga vada
+
+ganana bhavati 0
+yavat ganana < 10:
+    ganana vada
+    ganana bhavati ganana + 1
+
+tejas bhavati 9
+yadi tejas % 7 == 0:
+    "uchcha" vada
+athava tejas % 8 == 0:
+    "uchcha" vada
+anyatha:
+    tejas vada
+
+karya samasti(sankhyam, tejasena, varshaat):
+    phala sankhya - tejas - varsha
+20m 41ena 77at samasti vada
+
+karya gunanfala(yogam, gatiena):
+    phala yoga - gati
+73m 28ena gunanfala vada
+
+sankhya bhavati 99
+artha bhavati sankhya * 4
+artha vada
+
+yoga bhavati 1
+yadi yoga % 4 == 0:
+    "alpa" vada
+athava yoga % 8 == 0:
+    "alpa" vada
+anyatha:
+    yoga vada

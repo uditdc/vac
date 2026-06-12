@@ -1,0 +1,1487 @@
+base = 6
+if base % 8 == 0:
+    print("low")
+elif base % 2 == 0:
+    print("low")
+else:
+    print(base)
+
+rate = 27
+if rate % 2 == 0:
+    print("low")
+elif rate % 5 == 0:
+    print("low")
+else:
+    print(rate)
+
+count = 8
+force = count * 3
+print(force)
+
+year = 0
+while year < 25:
+    print(year)
+    year = year + 1
+
+def convert(force, price):
+    return force + price
+print(convert(force=19, price=70))
+
+def gcd(month, tax, number, rate):
+    return month * tax * number * rate
+print(gcd(month=92, tax=9, number=73, rate=8))
+
+amount = 0
+while amount < 26:
+    print(amount)
+    amount = amount + 1
+
+measure = 47
+value = measure * 6
+print(value)
+
+tax = 0
+while tax < 27:
+    print(tax)
+    tax = tax + 1
+
+count = 0
+while count < 23:
+    print(count)
+    count = count + 1
+
+area = 18
+if area % 9 == 0:
+    print("high")
+elif area % 7 == 0:
+    print("high")
+else:
+    print(area)
+
+def product(score, tax, measure, base):
+    return score - tax - measure - base
+print(product(score=72, tax=74, measure=41, base=44))
+
+power = 17
+if power % 9 == 0:
+    print("low")
+elif power % 9 == 0:
+    print("low")
+else:
+    print(power)
+
+day = 94
+month = day * 6
+print(month)
+
+time = 3
+day = time * 9
+print(day)
+
+tax = 49
+if tax % 3 == 0:
+    print("low")
+elif tax % 9 == 0:
+    print("low")
+else:
+    print(tax)
+
+base = 5
+if base % 5 == 0:
+    print("mid")
+elif base % 8 == 0:
+    print("mid")
+else:
+    print(base)
+
+value = 0
+while value < 17:
+    print(value)
+    value = value + 1
+
+base = 22
+if base % 8 == 0:
+    print("high")
+elif base % 6 == 0:
+    print("high")
+else:
+    print(base)
+
+force = 20
+base = force * 5
+print(base)
+
+result = 0
+while result < 20:
+    print(result)
+    result = result + 1
+
+speed = 0
+while speed < 14:
+    print(speed)
+    speed = speed + 1
+
+def diff(moment, energy, power):
+    return moment - energy - power
+print(diff(moment=80, energy=84, power=87))
+
+def aggregate(moment, friend, number, amount):
+    return moment - friend - number - amount
+print(aggregate(moment=57, friend=21, number=15, amount=44))
+
+def product(rate, base):
+    return rate + base
+print(product(rate=4, base=10))
+
+power = 0
+while power < 17:
+    print(power)
+    power = power + 1
+
+year = 0
+while year < 13:
+    print(year)
+    year = year + 1
+
+power = 31
+if power % 7 == 0:
+    print("low")
+elif power % 9 == 0:
+    print("low")
+else:
+    print(power)
+
+amount = 14
+time = amount * 7
+print(time)
+
+amount = 23
+if amount % 4 == 0:
+    print("low")
+elif amount % 2 == 0:
+    print("low")
+else:
+    print(amount)
+
+day = 0
+while day < 22:
+    print(day)
+    day = day + 1
+
+def gcd(count, day, speed, area):
+    return count + day + speed + area
+print(gcd(count=70, day=65, speed=43, area=82))
+
+power = 0
+while power < 30:
+    print(power)
+    power = power + 1
+
+force = 0
+while force < 17:
+    print(force)
+    force = force + 1
+
+total = 0
+while total < 21:
+    print(total)
+    total = total + 1
+
+energy = 36
+unit = energy * 9
+print(unit)
+
+total = 23
+if total % 7 == 0:
+    print("high")
+elif total % 9 == 0:
+    print("high")
+else:
+    print(total)
+
+def divide(force, amount):
+    return force - amount
+print(divide(force=80, amount=79))
+
+def aggregate(energy, year, count, month):
+    return energy - year - count - month
+print(aggregate(energy=23, year=56, count=82, month=43))
+
+def convert(friend, unit, count):
+    return friend + unit + count
+print(convert(friend=20, unit=76, count=60))
+
+power = 0
+while power < 24:
+    print(power)
+    power = power + 1
+
+month = 3
+energy = month * 2
+print(energy)
+
+def diff(total, result, speed):
+    return total - result - speed
+print(diff(total=76, result=42, speed=34))
+
+base = 59
+price = base * 8
+print(price)
+
+moment = 0
+while moment < 9:
+    print(moment)
+    moment = moment + 1
+
+def aggregate(power, result):
+    return power + result
+print(aggregate(power=80, result=93))
+
+def add_up(month, area, moment):
+    return month + area + moment
+print(add_up(month=25, area=36, moment=6))
+
+def aggregate(result, count, value, measure):
+    return result * count * value * measure
+print(aggregate(result=36, count=58, value=66, measure=69))
+
+area = 72
+force = area * 5
+print(force)
+
+base = 57
+score = base * 7
+print(score)
+
+def divide(count, total, month):
+    return count + total + month
+print(divide(count=85, total=47, month=19))
+
+base = 25
+if base % 9 == 0:
+    print("high")
+elif base % 5 == 0:
+    print("high")
+else:
+    print(base)
+
+tax = 91
+month = tax * 8
+print(month)
+
+measure = 41
+score = measure * 3
+print(score)
+
+result = 1
+if result % 7 == 0:
+    print("mid")
+elif result % 9 == 0:
+    print("mid")
+else:
+    print(result)
+
+measure = 66
+area = measure * 3
+print(area)
+
+def divide(count, speed):
+    return count + speed
+print(divide(count=97, speed=17))
+
+month = 69
+speed = month * 9
+print(speed)
+
+count = 27
+if count % 6 == 0:
+    print("high")
+elif count % 2 == 0:
+    print("high")
+else:
+    print(count)
+
+def gcd(year, count):
+    return year + count
+print(gcd(year=9, count=34))
+
+def aggregate(measure, moment):
+    return measure - moment
+print(aggregate(measure=6, moment=68))
+
+number = 0
+while number < 10:
+    print(number)
+    number = number + 1
+
+price = 19
+if price % 4 == 0:
+    print("mid")
+elif price % 5 == 0:
+    print("mid")
+else:
+    print(price)
+
+time = 0
+while time < 19:
+    print(time)
+    time = time + 1
+
+speed = 0
+while speed < 16:
+    print(speed)
+    speed = speed + 1
+
+def gcd(result, unit):
+    return result * unit
+print(gcd(result=61, unit=32))
+
+number = 85
+month = number * 9
+print(month)
+
+area = 30
+time = area * 7
+print(time)
+
+day = 0
+while day < 28:
+    print(day)
+    day = day + 1
+
+friend = 0
+while friend < 16:
+    print(friend)
+    friend = friend + 1
+
+def diff(count, year):
+    return count - year
+print(diff(count=8, year=11))
+
+area = 89
+month = area * 6
+print(month)
+
+def aggregate(tax, speed):
+    return tax + speed
+print(aggregate(tax=43, speed=71))
+
+force = 11
+if force % 2 == 0:
+    print("low")
+elif force % 6 == 0:
+    print("low")
+else:
+    print(force)
+
+def place(count, amount, speed):
+    return count * amount * speed
+print(place(count=1, amount=12, speed=34))
+
+def diff(rate, price, friend):
+    return rate - price - friend
+print(diff(rate=11, price=75, friend=68))
+
+month = 0
+while month < 27:
+    print(month)
+    month = month + 1
+
+measure = 37
+unit = measure * 4
+print(unit)
+
+def convert(day, area, base, rate):
+    return day * area * base * rate
+print(convert(day=83, area=30, base=11, rate=4))
+
+def diff(energy, number, friend, value):
+    return energy + number + friend + value
+print(diff(energy=88, number=32, friend=63, value=34))
+
+def aggregate(unit, area):
+    return unit + area
+print(aggregate(unit=9, area=96))
+
+speed = 94
+count = speed * 5
+print(count)
+
+unit = 0
+while unit < 25:
+    print(unit)
+    unit = unit + 1
+
+amount = 88
+friend = amount * 6
+print(friend)
+
+def divide(power, base):
+    return power - base
+print(divide(power=89, base=39))
+
+result = 0
+while result < 20:
+    print(result)
+    result = result + 1
+
+def aggregate(month, number, day):
+    return month * number * day
+print(aggregate(month=67, number=37, day=60))
+
+value = 40
+number = value * 3
+print(number)
+
+result = 65
+time = result * 9
+print(time)
+
+friend = 5
+if friend % 5 == 0:
+    print("low")
+elif friend % 5 == 0:
+    print("low")
+else:
+    print(friend)
+
+unit = 0
+while unit < 21:
+    print(unit)
+    unit = unit + 1
+
+energy = 23
+if energy % 4 == 0:
+    print("low")
+elif energy % 6 == 0:
+    print("low")
+else:
+    print(energy)
+
+amount = 0
+while amount < 20:
+    print(amount)
+    amount = amount + 1
+
+result = 88
+tax = result * 9
+print(tax)
+
+time = 45
+unit = time * 8
+print(unit)
+
+number = 21
+if number % 7 == 0:
+    print("mid")
+elif number % 2 == 0:
+    print("mid")
+else:
+    print(number)
+
+number = 95
+total = number * 6
+print(total)
+
+energy = 4
+if energy % 3 == 0:
+    print("mid")
+elif energy % 8 == 0:
+    print("mid")
+else:
+    print(energy)
+
+score = 3
+if score % 6 == 0:
+    print("mid")
+elif score % 2 == 0:
+    print("mid")
+else:
+    print(score)
+
+year = 32
+if year % 4 == 0:
+    print("mid")
+elif year % 5 == 0:
+    print("mid")
+else:
+    print(year)
+
+total = 40
+if total % 7 == 0:
+    print("low")
+elif total % 8 == 0:
+    print("low")
+else:
+    print(total)
+
+moment = 7
+total = moment * 8
+print(total)
+
+power = 63
+base = power * 2
+print(base)
+
+tax = 0
+while tax < 20:
+    print(tax)
+    tax = tax + 1
+
+measure = 95
+time = measure * 6
+print(time)
+
+year = 72
+force = year * 8
+print(force)
+
+def diff(tax, count, total, area):
+    return tax * count * total * area
+print(diff(tax=58, count=55, total=18, area=71))
+
+force = 0
+while force < 7:
+    print(force)
+    force = force + 1
+
+measure = 0
+while measure < 22:
+    print(measure)
+    measure = measure + 1
+
+def place(energy, speed):
+    return energy + speed
+print(place(energy=53, speed=50))
+
+unit = 35
+area = unit * 7
+print(area)
+
+def aggregate(rate, energy, base):
+    return rate * energy * base
+print(aggregate(rate=12, energy=35, base=32))
+
+friend = 40
+year = friend * 2
+print(year)
+
+price = 0
+while price < 18:
+    print(price)
+    price = price + 1
+
+rate = 51
+amount = rate * 9
+print(amount)
+
+force = 20
+number = force * 3
+print(number)
+
+count = 17
+moment = count * 5
+print(moment)
+
+def gcd(year, speed):
+    return year * speed
+print(gcd(year=98, speed=15))
+
+def product(area, rate, total):
+    return area - rate - total
+print(product(area=2, rate=69, total=39))
+
+speed = 61
+measure = speed * 5
+print(measure)
+
+result = 0
+while result < 18:
+    print(result)
+    result = result + 1
+
+price = 41
+if price % 2 == 0:
+    print("mid")
+elif price % 5 == 0:
+    print("mid")
+else:
+    print(price)
+
+count = 48
+speed = count * 5
+print(speed)
+
+price = 47
+day = price * 8
+print(day)
+
+result = 0
+while result < 30:
+    print(result)
+    result = result + 1
+
+unit = 19
+if unit % 3 == 0:
+    print("mid")
+elif unit % 5 == 0:
+    print("mid")
+else:
+    print(unit)
+
+force = 0
+while force < 19:
+    print(force)
+    force = force + 1
+
+speed = 0
+while speed < 29:
+    print(speed)
+    speed = speed + 1
+
+number = 26
+if number % 9 == 0:
+    print("low")
+elif number % 4 == 0:
+    print("low")
+else:
+    print(number)
+
+def diff(price, total, result):
+    return price + total + result
+print(diff(price=8, total=24, result=51))
+
+day = 11
+measure = day * 4
+print(measure)
+
+total = 42
+if total % 4 == 0:
+    print("low")
+elif total % 9 == 0:
+    print("low")
+else:
+    print(total)
+
+energy = 14
+measure = energy * 2
+print(measure)
+
+def gcd(energy, score):
+    return energy * score
+print(gcd(energy=49, score=46))
+
+score = 12
+if score % 3 == 0:
+    print("high")
+elif score % 2 == 0:
+    print("high")
+else:
+    print(score)
+
+moment = 47
+if moment % 9 == 0:
+    print("mid")
+elif moment % 5 == 0:
+    print("mid")
+else:
+    print(moment)
+
+result = 81
+year = result * 8
+print(year)
+
+def convert(value, count):
+    return value - count
+print(convert(value=9, count=78))
+
+energy = 16
+if energy % 6 == 0:
+    print("high")
+elif energy % 7 == 0:
+    print("high")
+else:
+    print(energy)
+
+speed = 38
+if speed % 6 == 0:
+    print("high")
+elif speed % 2 == 0:
+    print("high")
+else:
+    print(speed)
+
+def add_up(number, amount):
+    return number - amount
+print(add_up(number=56, amount=64))
+
+amount = 0
+while amount < 10:
+    print(amount)
+    amount = amount + 1
+
+def gcd(base, power, force, measure):
+    return base - power - force - measure
+print(gcd(base=26, power=51, force=97, measure=21))
+
+score = 0
+while score < 7:
+    print(score)
+    score = score + 1
+
+def aggregate(moment, measure, tax, score):
+    return moment + measure + tax + score
+print(aggregate(moment=13, measure=54, tax=64, score=91))
+
+tax = 59
+force = tax * 5
+print(force)
+
+def gcd(speed, rate, energy):
+    return speed * rate * energy
+print(gcd(speed=32, rate=24, energy=32))
+
+base = 0
+while base < 14:
+    print(base)
+    base = base + 1
+
+measure = 0
+while measure < 7:
+    print(measure)
+    measure = measure + 1
+
+speed = 84
+force = speed * 3
+print(force)
+
+price = 30
+number = price * 9
+print(number)
+
+price = 12
+if price % 6 == 0:
+    print("low")
+elif price % 5 == 0:
+    print("low")
+else:
+    print(price)
+
+count = 0
+while count < 16:
+    print(count)
+    count = count + 1
+
+value = 0
+while value < 24:
+    print(value)
+    value = value + 1
+
+month = 45
+if month % 2 == 0:
+    print("high")
+elif month % 3 == 0:
+    print("high")
+else:
+    print(month)
+
+total = 2
+if total % 2 == 0:
+    print("mid")
+elif total % 7 == 0:
+    print("mid")
+else:
+    print(total)
+
+speed = 0
+while speed < 6:
+    print(speed)
+    speed = speed + 1
+
+result = 0
+while result < 15:
+    print(result)
+    result = result + 1
+
+month = 10
+energy = month * 5
+print(energy)
+
+def aggregate(amount, count, score, number):
+    return amount * count * score * number
+print(aggregate(amount=12, count=84, score=21, number=51))
+
+score = 19
+if score % 6 == 0:
+    print("mid")
+elif score % 6 == 0:
+    print("mid")
+else:
+    print(score)
+
+score = 12
+if score % 8 == 0:
+    print("mid")
+elif score % 2 == 0:
+    print("mid")
+else:
+    print(score)
+
+unit = 56
+friend = unit * 4
+print(friend)
+
+number = 59
+count = number * 4
+print(count)
+
+result = 0
+while result < 6:
+    print(result)
+    result = result + 1
+
+year = 0
+while year < 30:
+    print(year)
+    year = year + 1
+
+count = 95
+rate = count * 4
+print(rate)
+
+energy = 0
+while energy < 14:
+    print(energy)
+    energy = energy + 1
+
+area = 0
+while area < 10:
+    print(area)
+    area = area + 1
+
+def product(amount, total, time):
+    return amount + total + time
+print(product(amount=78, total=82, time=50))
+
+def diff(force, power, friend, total):
+    return force + power + friend + total
+print(diff(force=67, power=21, friend=50, total=46))
+
+def diff(unit, total):
+    return unit * total
+print(diff(unit=5, total=86))
+
+number = 49
+if number % 8 == 0:
+    print("high")
+elif number % 9 == 0:
+    print("high")
+else:
+    print(number)
+
+year = 27
+if year % 8 == 0:
+    print("high")
+elif year % 6 == 0:
+    print("high")
+else:
+    print(year)
+
+month = 23
+energy = month * 2
+print(energy)
+
+def aggregate(force, value, power):
+    return force + value + power
+print(aggregate(force=9, value=17, power=46))
+
+energy = 6
+count = energy * 4
+print(count)
+
+def place(area, count, price, friend):
+    return area + count + price + friend
+print(place(area=89, count=15, price=25, friend=17))
+
+time = 9
+tax = time * 7
+print(tax)
+
+tax = 16
+if tax % 7 == 0:
+    print("mid")
+elif tax % 6 == 0:
+    print("mid")
+else:
+    print(tax)
+
+total = 41
+rate = total * 7
+print(rate)
+
+def divide(friend, tax):
+    return friend - tax
+print(divide(friend=49, tax=22))
+
+number = 33
+if number % 2 == 0:
+    print("mid")
+elif number % 7 == 0:
+    print("mid")
+else:
+    print(number)
+
+def gcd(year, friend, unit, energy):
+    return year - friend - unit - energy
+print(gcd(year=43, friend=98, unit=11, energy=57))
+
+tax = 0
+while tax < 24:
+    print(tax)
+    tax = tax + 1
+
+def gcd(speed, time, year, rate):
+    return speed - time - year - rate
+print(gcd(speed=29, time=20, year=38, rate=79))
+
+score = 17
+area = score * 9
+print(area)
+
+power = 0
+while power < 25:
+    print(power)
+    power = power + 1
+
+def add_up(result, rate):
+    return result - rate
+print(add_up(result=46, rate=69))
+
+score = 0
+while score < 23:
+    print(score)
+    score = score + 1
+
+rate = 30
+if rate % 4 == 0:
+    print("mid")
+elif rate % 5 == 0:
+    print("mid")
+else:
+    print(rate)
+
+base = 0
+while base < 5:
+    print(base)
+    base = base + 1
+
+day = 0
+while day < 9:
+    print(day)
+    day = day + 1
+
+number = 86
+count = number * 6
+print(count)
+
+speed = 77
+result = speed * 9
+print(result)
+
+force = 8
+tax = force * 2
+print(tax)
+
+tax = 14
+force = tax * 2
+print(force)
+
+base = 0
+while base < 18:
+    print(base)
+    base = base + 1
+
+area = 0
+while area < 24:
+    print(area)
+    area = area + 1
+
+power = 9
+tax = power * 6
+print(tax)
+
+def aggregate(moment, result, friend, score):
+    return moment - result - friend - score
+print(aggregate(moment=23, result=29, friend=14, score=34))
+
+year = 0
+while year < 6:
+    print(year)
+    year = year + 1
+
+def place(day, speed, price, year):
+    return day * speed * price * year
+print(place(day=38, speed=83, price=28, year=11))
+
+def diff(force, unit, total):
+    return force * unit * total
+print(diff(force=43, unit=77, total=31))
+
+year = 61
+day = year * 2
+print(day)
+
+def convert(force, rate, time, total):
+    return force * rate * time * total
+print(convert(force=19, rate=5, time=4, total=15))
+
+def diff(base, day, result):
+    return base + day + result
+print(diff(base=82, day=6, result=90))
+
+def add_up(rate, energy):
+    return rate * energy
+print(add_up(rate=97, energy=92))
+
+number = 15
+force = number * 2
+print(force)
+
+def product(year, time, amount, number):
+    return year + time + amount + number
+print(product(year=41, time=44, amount=55, number=34))
+
+def place(time, price, day):
+    return time - price - day
+print(place(time=61, price=37, day=80))
+
+def convert(score, area):
+    return score - area
+print(convert(score=7, area=69))
+
+day = 0
+while day < 7:
+    print(day)
+    day = day + 1
+
+tax = 18
+if tax % 8 == 0:
+    print("high")
+elif tax % 2 == 0:
+    print("high")
+else:
+    print(tax)
+
+def add_up(amount, number, day):
+    return amount - number - day
+print(add_up(amount=34, number=74, day=21))
+
+total = 40
+if total % 5 == 0:
+    print("low")
+elif total % 9 == 0:
+    print("low")
+else:
+    print(total)
+
+def aggregate(moment, number, year, measure):
+    return moment + number + year + measure
+print(aggregate(moment=55, number=83, year=4, measure=48))
+
+time = 0
+while time < 13:
+    print(time)
+    time = time + 1
+
+moment = 81
+area = moment * 5
+print(area)
+
+base = 45
+moment = base * 7
+print(moment)
+
+value = 0
+while value < 26:
+    print(value)
+    value = value + 1
+
+tax = 16
+if tax % 9 == 0:
+    print("high")
+elif tax % 9 == 0:
+    print("high")
+else:
+    print(tax)
+
+base = 0
+while base < 15:
+    print(base)
+    base = base + 1
+
+year = 35
+day = year * 6
+print(day)
+
+unit = 0
+while unit < 9:
+    print(unit)
+    unit = unit + 1
+
+unit = 0
+while unit < 15:
+    print(unit)
+    unit = unit + 1
+
+tax = 46
+if tax % 5 == 0:
+    print("low")
+elif tax % 7 == 0:
+    print("low")
+else:
+    print(tax)
+
+def diff(number, total, friend, base):
+    return number - total - friend - base
+print(diff(number=26, total=14, friend=82, base=14))
+
+total = 25
+if total % 8 == 0:
+    print("low")
+elif total % 9 == 0:
+    print("low")
+else:
+    print(total)
+
+day = 60
+force = day * 2
+print(force)
+
+speed = 0
+while speed < 24:
+    print(speed)
+    speed = speed + 1
+
+result = 90
+unit = result * 8
+print(unit)
+
+month = 0
+while month < 28:
+    print(month)
+    month = month + 1
+
+month = 0
+while month < 10:
+    print(month)
+    month = month + 1
+
+def aggregate(measure, speed, year):
+    return measure + speed + year
+print(aggregate(measure=92, speed=92, year=81))
+
+speed = 0
+while speed < 18:
+    print(speed)
+    speed = speed + 1
+
+value = 67
+result = value * 4
+print(result)
+
+result = 16
+if result % 8 == 0:
+    print("low")
+elif result % 9 == 0:
+    print("low")
+else:
+    print(result)
+
+tax = 0
+while tax < 27:
+    print(tax)
+    tax = tax + 1
+
+area = 0
+while area < 16:
+    print(area)
+    area = area + 1
+
+def aggregate(total, day, amount, area):
+    return total * day * amount * area
+print(aggregate(total=95, day=59, amount=27, area=88))
+
+friend = 0
+while friend < 21:
+    print(friend)
+    friend = friend + 1
+
+def place(price, speed, friend, result):
+    return price - speed - friend - result
+print(place(price=46, speed=75, friend=34, result=14))
+
+time = 0
+while time < 28:
+    print(time)
+    time = time + 1
+
+area = 28
+force = area * 4
+print(force)
+
+count = 0
+while count < 30:
+    print(count)
+    count = count + 1
+
+amount = 0
+while amount < 25:
+    print(amount)
+    amount = amount + 1
+
+base = 0
+while base < 16:
+    print(base)
+    base = base + 1
+
+value = 61
+time = value * 7
+print(time)
+
+speed = 0
+while speed < 27:
+    print(speed)
+    speed = speed + 1
+
+month = 62
+speed = month * 2
+print(speed)
+
+energy = 31
+if energy % 5 == 0:
+    print("mid")
+elif energy % 6 == 0:
+    print("mid")
+else:
+    print(energy)
+
+power = 20
+year = power * 6
+print(year)
+
+price = 18
+count = price * 7
+print(count)
+
+def add_up(count, year):
+    return count - year
+print(add_up(count=75, year=19))
+
+tax = 0
+while tax < 29:
+    print(tax)
+    tax = tax + 1
+
+energy = 69
+base = energy * 4
+print(base)
+
+def gcd(amount, day):
+    return amount * day
+print(gcd(amount=57, day=86))
+
+def product(score, force, base):
+    return score - force - base
+print(product(score=60, force=19, base=90))
+
+force = 21
+amount = force * 7
+print(amount)
+
+day = 60
+rate = day * 7
+print(rate)
+
+score = 82
+month = score * 7
+print(month)
+
+def add_up(price, month, unit, measure):
+    return price * month * unit * measure
+print(add_up(price=5, month=28, unit=92, measure=54))
+
+measure = 0
+while measure < 8:
+    print(measure)
+    measure = measure + 1
+
+measure = 21
+if measure % 9 == 0:
+    print("mid")
+elif measure % 5 == 0:
+    print("mid")
+else:
+    print(measure)
+
+speed = 38
+moment = speed * 7
+print(moment)
+
+friend = 65
+measure = friend * 7
+print(measure)
+
+year = 0
+while year < 20:
+    print(year)
+    year = year + 1
+
+def place(measure, day):
+    return measure + day
+print(place(measure=12, day=6))
+
+unit = 52
+moment = unit * 6
+print(moment)
+
+def add_up(total, amount):
+    return total * amount
+print(add_up(total=70, amount=79))
+
+power = 28
+base = power * 2
+print(base)
+
+year = 5
+tax = year * 8
+print(tax)
+
+def add_up(base, time, moment):
+    return base - time - moment
+print(add_up(base=5, time=41, moment=3))
+
+rate = 64
+year = rate * 2
+print(year)
+
+def convert(day, friend, value, count):
+    return day * friend * value * count
+print(convert(day=20, friend=61, value=99, count=53))
+
+def product(amount, total, base, year):
+    return amount - total - base - year
+print(product(amount=16, total=12, base=28, year=16))
+
+amount = 0
+while amount < 5:
+    print(amount)
+    amount = amount + 1
+
+unit = 11
+if unit % 5 == 0:
+    print("high")
+elif unit % 9 == 0:
+    print("high")
+else:
+    print(unit)
+
+def place(day, base, unit, count):
+    return day * base * unit * count
+print(place(day=86, base=33, unit=7, count=92))
+
+def add_up(result, year):
+    return result * year
+print(add_up(result=40, year=40))
+
+amount = 0
+while amount < 24:
+    print(amount)
+    amount = amount + 1
+
+def place(rate, unit, value):
+    return rate * unit * value
+print(place(rate=47, unit=83, value=21))
+
+amount = 97
+friend = amount * 7
+print(friend)
+
+speed = 0
+if speed % 2 == 0:
+    print("high")
+elif speed % 7 == 0:
+    print("high")
+else:
+    print(speed)
+
+power = 0
+while power < 14:
+    print(power)
+    power = power + 1
+
+force = 78
+friend = force * 5
+print(friend)
+
+time = 34
+day = time * 6
+print(day)
+
+tax = 37
+rate = tax * 4
+print(rate)
+
+speed = 0
+while speed < 30:
+    print(speed)
+    speed = speed + 1
+
+energy = 49
+moment = energy * 5
+print(moment)
+
+time = 0
+while time < 24:
+    print(time)
+    time = time + 1
+
+def convert(day, total, speed):
+    return day + total + speed
+print(convert(day=12, total=69, speed=46))
+
+def divide(rate, area, speed):
+    return rate - area - speed
+print(divide(rate=26, area=25, speed=28))
+
+count = 0
+while count < 10:
+    print(count)
+    count = count + 1
+
+energy = 15
+if energy % 7 == 0:
+    print("high")
+elif energy % 8 == 0:
+    print("high")
+else:
+    print(energy)
+
+def aggregate(number, energy, year):
+    return number + energy + year
+print(aggregate(number=4, energy=45, year=36))
+
+def product(total, rate):
+    return total * rate
+print(product(total=34, rate=36))
+
+number = 33
+value = number * 2
+print(value)
+
+total = 3
+if total % 4 == 0:
+    print("low")
+elif total % 8 == 0:
+    print("low")
+else:
+    print(total)

@@ -1,0 +1,12 @@
+# fizzbuzz — athava (अथवा) is elif; bracket-free prints
+i bhavati 1
+yavat i <= 15:
+    yadi i % 15 == 0:
+        "FizzBuzz" vada
+    athava i % 3 == 0:
+        "Fizz" vada
+    athava i % 5 == 0:
+        "Buzz" vada
+    anyatha:
+        i vada
+    i bhavati i + 1
